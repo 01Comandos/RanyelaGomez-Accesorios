@@ -1,0 +1,183 @@
+    /******CSS por Sr @01Comandos - 08/11/2014 ******/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+@font-face {
+    font-family: 'Gloria';
+    src: url('../fonts/GloriaHallelujah.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Josefina-Bold';
+    src: url('../fonts/JosefinSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Josefina-Regular';
+    src: url('../fonts/JosefinSans-Regular.ttf') format('truetype');
+}
+
+
+/*********************************************************************
+*********************** INDEX ***************************************/
+
+/****** BOTONES SUPERIORES - REGISTROS - LOGIN - CARRITO *******/
+.botones-superiores {
+    float: right;
+    top: 10px;   
+}
+
+.botones-superiores button{
+    height: 35px;
+    background: #232a30;
+    margin-right: 5px;
+    border-radius: 0px;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+}
+
+.botones-superiores button img{
+    margin-bottom: 5px;
+    margin-right: 3px;
+}
+
+.botones-superiores button:hover{
+    background: #8b66a5;
+    color: #ffffff;
+}
+/************************************************************/
+
+/****** NAVEGACIÓN *******/
+.home-icono{
+    margin-top: 35px;
+}
+
+.menu-principal{
+    display: inline-block;
+}
+
+
+
+/*********************************************************************
+*********************** FOOTER ***************************************/
+footer{
+    background: #3e3e40;
+}
+
+.logo-footer{
+    padding-top: 15px;
+}
+
+.social{
+    padding-top: 15px;
+}
+
+#titulo-sociales{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Gloria';
+}
+
+.social-media{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#derechos-reservados{
+    text-align: center;
+    font-family: 'Gloria';
+    color: #ffffff;
+}
+
+
+
+/*********************************************************************
+*********************** INSCRIBETE.PHP ***************************************/
+/** HEADER **/
+.logo-inscribete{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.seccion-formulario{
+    background: #eeeeee;
+}
+
+.Contenedor-General{
+    background: #ffffff;
+    margin-top: 55px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: 1.5px 2.598px 1px 0.9px rgb( 150, 150, 150 );
+}
+
+.titulo-formulario{
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-family: 'Josefina-Bold';
+    font-size: 18px;
+    color: #d72966;
+}
+
+
+.subtitulo-formulario{
+    text-align: left;
+}
+
+.subtitulo-formulario span{
+    font-family: 'JosefinSans-Regular';
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+.formulario{
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.etiqueta-formulario{
+    text-align: right;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+.formulario form input{
+    margin-left: 3px;
+    text-indent: 15px;
+    width: 241px;
+    height: 41px;
+    border-radius: 3px;
+    border: 1px solid #a8a8a8;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+}
+
+#documento-identidad{
+    width: 150px;
+}
+
+.seccion-documento{
+    text-align: center;
+}
+
+.btn-inscripcion{
+    text-align: center;
+}
+
+#boton-inscribirme{
+    background: #d72966;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border:0px;
+    border-bottom: 3px solid #b71e54;
+    text-align: center;
+}
+
+

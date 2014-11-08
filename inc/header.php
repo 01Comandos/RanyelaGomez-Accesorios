@@ -1,0 +1,55 @@
+<header id="main-header">
+
+  <!-- ZONA 01: LOGIN - INSCRIBIRSE - CARRITO -->
+  <div class="container">
+        <div class="row">
+           <!--
+               INSCRIBIRSE - LOGIN - CARRITO 
+            -->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="btn-group botones-superiores">
+                      <button class="btn btn-default btn-superior" href="inscribete.php"><img src="img/inscribete-icono.png" alt="">Inscríbete</button>
+                      <button class="btn btn-default btn-superior" href="ingresa.php"><img src="img/ingresa_icon.png" alt="">Ingresa</button>
+                      <button class="btn btn-default btn-superior" href="carrito.php"><img src="img/carrito-icono.png" alt="">Carrito: Vacio</button>
+                    </div>
+            </div>
+          
+        </div>
+  </div>
+
+  <!--
+      lOGOTIPO - MENU
+  -->
+  <div class="container">
+        <div class="row">
+           <!--
+               LOGO
+            -->
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <h1 id="main-logo"><a href="index.php"><img src="img/ranyela-logotipo.png" alt="logotipo"></a></h1>
+            </div>
+            
+            <!-- 
+                MENU
+            -->
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                <div class="home-icono">
+                  <a href="index.php"><img src="img/home-icono.png" alt=""></a>
+                  <nav>
+                      <ul class="menu-principal">
+                          <li><a href="#">GARGANTILLAS</a></li>
+                          <li><a href="#">PULSERAS</a></li>
+                          <li><a href="#">ZARCILLOS</a></li>
+                          <li><a href="#">CONTACTO</a></li>
+                      </ul>
+                  </nav>
+                </div>
+                
+            </div>
+        </div>
+  </div>
+
+              
+
+
+</header>
