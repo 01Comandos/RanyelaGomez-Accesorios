@@ -26,24 +26,24 @@
                LOGO
             -->
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <h1 id="main-logo"><a href="index.php"><img src="img/ranyela-logotipo.png" alt="logotipo"></a></h1>
+                <div id="main-logo">
+                    <a href="index.php"><img src="img/ranyela-logotipo.png" alt="logotipo"></a>
+                </div>
             </div>
             
             <!-- 
                 MENU
             -->
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                <div class="home-icono">
-                  <a href="index.php"><img src="img/home-icono.png" alt=""></a>
-                  <nav>
+                  <nav>        
                       <ul class="menu-principal">
+                          <li><a href="index.php"><img src="img/home-icono.png" alt=""></a></li>
                           <li><a href="#">GARGANTILLAS</a></li>
                           <li><a href="#">PULSERAS</a></li>
                           <li><a href="#">ZARCILLOS</a></li>
                           <li><a href="#">CONTACTO</a></li>
                       </ul>
                   </nav>
-                </div>
                 
             </div>
         </div>

@@ -19,8 +19,36 @@
   </head>
   <body>
     <?php include 'inc/header.php'; ?>
-    <h1>Hello, world!</h1>
+    <section class="slideshow">
+        AQUI SLIDESHOW  
+    </section>
+
+    <section class="mas-visitados">
+        AQUI SLIDE MAS COMPRADOS
+    </section>
     
+    <section class="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="letritas">
+                        <h3>Porque lucir bellas y originales es una ciencia</h3>
+                    </div>
+                    <div class="formulario-newsletter">
+                        <form action="">
+                            <input type="email" name="email" placeholder="@Email" required="required" id="email3">
+                            <input type="submit" value="SUSCRIBETE" id="boton-suscribir">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="imagen-ciencia">
+                        <img src="img/img-newsletter.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
     
     

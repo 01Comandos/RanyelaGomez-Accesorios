@@ -112,22 +112,19 @@
                                                 <span>Contraseña</span>
                                             </div>
                                         </div>
-                                        <div class="col-md-9">
+                                        <div class="col-md-9 contrasena">
                                             <input type="password" name="password" required="required" id="password1">
-                                            <div class="tag">
-                                                <span>Usa entre 6 y 20 Caracteres</span>
-                                            </div>
+                                            <span>Usa entre 6 y 20 Caracteres</span>
                                         </div>
                                   </div>
 
                                   <div class="row">
-                                        <div class="col-md-12">
+                                        <div class="col-md-8">
                                             <div class="seccion-documento">
                                                 <label for="Documento" id="documento-title">Documento</label>
                                                 <select id="documento" name="doc">
                                                   <option value="">C.I</option>
-                                                  <option value="sex1">R.I.F</option>
-                                                  <option value="sex2">Female</option>
+                                                  <option value="sex1">R.I.F</option>                                                  
                                                 </select>
 
                                                 <select id="documento2" name="doc2">
@@ -141,7 +138,7 @@
                                   </div>
 
                                   <div class="row">
-                                      <div class="col-md-12">
+                                      <div class="col-md-8">
                                           <div class="btn-inscripcion">
                                               <input type="submit" value="Inscribirme" id="boton-inscribirme">
                                           </div>
