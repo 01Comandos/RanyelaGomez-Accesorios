@@ -113,7 +113,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-9 contrasena">
-                                            <input type="password" name="password" required="required" id="password1">
+                                            <input type="password" name="password" required="required" id="password1" >
                                             <span>Usa entre 6 y 20 Caracteres</span>
                                         </div>
                                   </div>

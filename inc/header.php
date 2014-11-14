@@ -36,8 +36,8 @@
             -->
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                   <nav>        
-                      <ul class="menu-principal">
-                          <li><a href="index.php"><img src="img/home-icono.png" alt=""></a></li>
+                      <ul class="menu-principal pull-right">
+                          <li><a href="index.php"><span class="glyphicon glyphicon-home"></span></a></li>
                           <li><a href="#">GARGANTILLAS</a></li>
                           <li><a href="#">PULSERAS</a></li>
                           <li><a href="#">ZARCILLOS</a></li>

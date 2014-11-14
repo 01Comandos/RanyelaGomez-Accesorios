@@ -8,6 +8,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -18,12 +19,44 @@
     <![endif]-->
   </head>
   <body>
-    <?php include 'inc/header.php'; ?>
-    <section class="slideshow">
-        AQUI SLIDESHOW  
+
+    <header>
+        <?php include 'inc/header.php'; ?>
+    </header>
+    
+    <section class="SlideShow_principal">
+        <article id="miSlide" class="carousel slide">
+                <ol class="carousel-indicators">
+                        <li data-target="#miSlide" data-slide-to ="0" class="active"></li>
+                        <li data-target="#miSlide" data-slide-to ="1"></li>
+                        <li data-target="#miSlide" data-slide-to ="2"></li>
+                        <li data-target="#miSlide" data-slide-to ="3"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/slide1.jpg" class="adaptar">
+                        </div>
+                        <div class="item">
+                            <img src="img/slide2.jpg" class="adaptar">
+                        </div>
+                        <div class="item">
+                            <img src="img/slide1.jpg" class="adaptar">
+                        </div>
+                        <div class="item">
+                            <img src="img/slide2.jpg" class="adaptar">
+                        </div>
+                </div>
+
+                <!--
+                    PASADORES
+                -->
+                <a href="#miSlide" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a href="#miSlide" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </article>  
     </section>
 
-    <section class="mas-visitados">
+    <section class="mas-visitados text-center">
         AQUI SLIDE MAS COMPRADOS
     </section>
     

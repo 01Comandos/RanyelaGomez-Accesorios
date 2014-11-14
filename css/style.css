@@ -51,17 +51,18 @@
     text-align: center;
     margin: 0;
     margin-top: 10px;
+    padding-bottom: 1em;
 }
 
 
 /****** NAVEGACIÓN *******/
-.home-icono{
-    margin-top: 25px;
+.menu-principal{
+    margin-right: 0;
+    margin-top: 30px;
 }
 
-.menu-principal{
-    margin: 0 1em 0 1em;s
-    float: right;
+.menu-principal span{
+    color: #d72966;
 }
 
 .menu-principal li{
@@ -77,7 +78,25 @@
     text-decoration: none;
 }
 
+/* ------ SLIDE PRINCIPAL ------*/
+.carousel-indicators .active{
+    background: #d72966;
+    border: #d72966;
+    width: 1em;
+    height: 1em;
+}
 
+.carousel-indicators li{
+    width: 1em;
+    height: 1em;
+}
+
+#miSlide a{
+    background: #d3004f;
+    width: 3em;
+    height: 3em;
+    margin-top: 10em;
+}
 
 
 /* ------ NEWSLETTER ------*/
