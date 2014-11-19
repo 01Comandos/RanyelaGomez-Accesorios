@@ -19,10 +19,7 @@
     <![endif]-->
   </head>
   <body>
-
-    <header>
         <?php include 'inc/header.php'; ?>
-    </header>
     
     <section class="SlideShow_principal">
         <article id="miSlide" class="carousel slide">
@@ -87,7 +84,6 @@
     
     
   
-
 
   </body>
   <?php include 'inc/footer.php'; ?>

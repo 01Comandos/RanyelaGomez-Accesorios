@@ -17,6 +17,20 @@
     src: url('../fonts/JosefinSans-Regular.ttf') format('truetype');
 }
 
+@font-face{
+    font-family: 'Roddy-Regular';
+    src: url('../fonts/roddy_0.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Roddy-Bold';
+    src: url('../roddybold_0.ttf') format('truetype');
+}
+figure{
+    margin: 0;
+    vertical-align: top;
+}
+
 
 /*********************************************************************
 *********************** INDEX ***************************************/
@@ -229,7 +243,6 @@
     color: #6b022a;
 }
 
-
 .imagen-ciencia{
     z-index: 2;
     margin-bottom: -20px;
@@ -368,4 +381,203 @@ footer{
     text-align: center;
     width: 8em;
     text-indent: 0;
+}
+
+
+/*********************************************************************
+*********************** CARRITO ***************************************/
+
+/****** BOTONES SUPERIORES - REGISTRADO - CARRITO *******/
+.botones-superiores-registrado {
+    float: right;
+    top: 10px;   
+    position: relative;
+}
+
+.botones-superiores-registrado button{
+    height: 35px;
+    background: #199a80;
+    margin-right: 5px;
+    border-radius: 0px;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    border: 0;
+}
+
+.botones-superiores-registrado button img{
+    margin-bottom: 5px;
+    margin-right: 3px;
+}
+
+.botones-superiores-registrado button:hover{
+    background: #1cae91;
+    color: #ffffff;
+}
+/************************************************************/
+
+.titulo-carrito{
+    background-color: #1b3c45;
+}
+
+.usuario-carrito-banner{
+    padding: 1em;
+}
+.usuario-carrito-banner h2{
+    color: #ffffff;
+    font-family: 'Roddy-Regular';
+    font-size: 28px;
+}
+
+.cuerpo-carrito{
+    background: #eeeeee;
+}
+
+.botones-principales-carrito button{
+    background: #f95133;
+    border: 0;
+    color: #ffffff;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding: 0.4em;
+    width: auto;
+}
+
+.botones-principales-carrito button:hover{
+    background-color: #e63e20;
+}
+
+.botones-principales-carrito.total-carrito button{
+    background-color: red;
+}
+
+/************ CUERPO CARRITO **********/
+.articulo-carrito{
+    background-color: #ffffff;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+}
+
+
+
+
+/*********************************************************************
+*********************** CONTACTO ***************************************/
+.contacto-section{
+    background: url('../img/contacto-textura.jpg');
+    border-top: 8px solid #d72966;
+    border-bottom: 8px solid #d72966;
+}
+
+.contacto-titulo{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.contacto-titulo h1{
+    font-family: 'Josefina-Regular';
+    font-size: 40px;
+}
+
+.contacto-titulo h4{
+    color: #f95133;
+    font-family: 'Gloria';
+    font-size: 16px;
+    margin-top: -0.5em;
+}
+
+.contacto-formulario form input{
+    text-indent: 15px;
+    width: 20em;
+    height: 3.2em;
+    border-radius: 3px;
+    border: 1px solid #a8a8a8;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.contacto-formulario form textarea{
+    border-radius: 3px;
+    border: 1px solid #a8a8a8;
+    background-color: #ffffff;
+    text-indent: 15px;
+    width: 20em;
+}
+
+.nombre-contacto, .asunto-contacto, .mensaje-contacto{
+    text-align: right;
+    margin-bottom: 0.5em;
+    margin-right: 2em;
+}
+
+.email-contacto, .recaptcha-contacto{
+    margin-bottom: 0.5em;
+    margin-left: 2em;
+}
+
+#nombre-contacto, #asunto-contacto, #mensaje-contacto{
+    margin-left: -0.3em;
+}
+
+.nombre-contacto figure{
+    background-color: #048acc;
+    display: inline-block;
+    padding: 0.5em;
+}
+
+.asunto-contacto figure{
+    background-color: #13ab7f;
+    display: inline-block;
+    padding: 0.5em;
+}
+
+.asunto-contacto figure img{
+    width: 30px;
+}
+
+.mensaje-contacto figure{
+    background-color: #91be11;
+    padding: 0.5em;
+    height: 4.5em;
+    width: 3.1em;
+    display: inline-block;
+}
+
+#mensaje-contacto{
+    height: 4.5em;
+}
+
+.email-contacto figure{
+    background-color: #f9b21b;
+    padding: 0.5em 0.5em;
+    float: left;
+    height: 3.2em;
+}
+
+#mensaje-contacto{
+    height: 4.5em;
+    padding: 12px 14px;
+    text-indent: 0;
+}
+.recaptcha-contacto{
+    color: #ffffff;
+    text-align: center;
+    background-color: #f95133;
+    width: 23em;
+    height: 8.5em;
+}
+
+#boton-contacto-enviar{
+    background: #f95133;
+    border-bottom: 3px solid #e13c1e;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 1em;
+    text-align: center;
+    width: 8em;
+    text-indent: 0;
+
+    margin-bottom: 4em;
 }

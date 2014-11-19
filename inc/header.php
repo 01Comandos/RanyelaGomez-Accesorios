@@ -99,7 +99,7 @@
                           <li><a href="#">GARGANTILLAS</a></li>
                           <li><a href="#">PULSERAS</a></li>
                           <li><a href="#">ZARCILLOS</a></li>
-                          <li><a href="#">CONTACTO</a></li>
+                          <li><a href="contacto.php">CONTACTO</a></li>
                       </ul>
                   </nav>
                 
