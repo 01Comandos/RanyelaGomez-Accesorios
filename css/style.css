@@ -219,7 +219,7 @@ figure{
     top: 0.8em;
     left: 0;
     position: absolute;
-    width: 30%;
+    width: 28%;
     height: 2px;    
 }
 
@@ -229,7 +229,7 @@ figure{
     top: 0.8em;
     right: 6em;
     position: absolute;
-    width: 20%;
+    width: 19%;
     height: 2px;
 }
 
@@ -240,6 +240,9 @@ figure{
     padding-left: 1.5em;
 }
 
+#primero-categoria{
+    padding-left: 0 !important;
+}
 #ultimo-categoria{
     border-right: 0;
 }
@@ -289,6 +292,7 @@ figure{
 
 .producto{
     margin-bottom: 2.5em;
+    left: 1em;
     position: relative;
 }
 
@@ -734,3 +738,73 @@ footer{
 
 /*********************************************************************
 *********************** CATEGORIAS.PHP ***************************************/
+.titulo-principal-categoria{
+    background: #d3004f;
+    color: #ffffff;
+    height: auto;
+    margin-bottom: 1em;
+    padding: 0;
+    position: relative;
+}
+
+.titulo-principal-categoria:before{
+    border-left: 30px solid transparent;
+    border-top: 30px solid #d3004f;
+    border-right: 30px solid transparent;
+    content: "";
+    position: absolute;
+    top: 7.5em;
+    left: 35.5em;
+}
+
+.titulo-principal-categoria h2{
+    font-family: 'Roddy-Regular';
+    font-size: 2.5em;
+    margin: 0;
+    padding: 1em;
+}
+
+
+.categorias-categorias:before{
+    background: #cdcdcd;
+    content: "";
+    top: 0.8em;
+    left: 0;
+    position: absolute;
+    width: 20%;
+    height: 2px;    
+}
+
+.categorias-categorias:after{
+    background: #cdcdcd;
+    content: "";
+    top: 0.8em;
+    right: 0em;
+    position: absolute;
+    width: 20%;
+    height: 2px;
+}
+
+.categorias-categorias{
+    padding: 0;
+}
+
+.pagination{
+    margin-top: -2em;
+    padding-bottom: 1em;
+}
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
+    background-color: #e7727e;
+    border-color: #e7727e;
+}
+
+.pagination>li:first-child>a, .pagination>li:first-child>span, .pagination li a{
+    color: #d40050;
+    border-color: #e7727e;
+}
+
+.pagination li a:hover{
+    background: #d40050;
+    color: #ffffff;
+}
