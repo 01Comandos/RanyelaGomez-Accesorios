@@ -17,9 +17,26 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript">
+            function validarFormularioContacto(){
+                JQuery.validator.message.required= 'Este campo es obligatorio.';
+                JQuery.validator.message.email='Escriba una dirección de correo valida';
+                $("#boton-contacto-enviar").click(function(){
+                    var validado = $("#contacto-formulario").valid();
+                    if(validado){
+                        alert ('El Formulario es Correcto');
+                    }
+                });
+            }
+            $(document).ready(function(){
+                validarFormularioContacto();
+            });
+    </script>
+
   </head>
   <body>
         <?php include 'inc/header.php'; ?>
+        
     
     <section class="contacto-section">
         <!--
@@ -40,7 +57,7 @@
             FORMULARIO CONTACTO
         -->
         <article class="contacto-formulario">
-            <form action="inc/contacto-formulario.php" method="POST">
+            <form action="inc/contacto-formulario.php" method="POST" id="contacto-formulario">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-lg-6">

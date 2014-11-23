@@ -8,7 +8,7 @@
             </div>
             <div class="col-md-3 col-md-offset-6">
                 <div class="social">
-                    <span id="titulo-sociales">¡Síguenos en las Redes Sociales</span>
+                    <span id="titulo-sociales">¡Síguenos en las Redes Sociales!</span>
                     <div class="social-media">
                         <a href="#"><img src="img/facebook-icon.png" alt=""></a>
                         <a href="#"><img src="img/twitter-icon.png" alt=""></a>
