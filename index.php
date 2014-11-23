@@ -90,6 +90,9 @@
                 <!-- PRODUCTO 1 -->
                 <div class="col-md-3 producto">
                     <div class="empaquetado">
+                        <div class="etiqueta-nuevo">
+                            <span>NUEVO</span>
+                        </div>
                         <a href="#"><figure><img src="img/producto1.jpg"></figure></a>
                         <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
                         <div class="prenda-stock">
@@ -116,6 +119,9 @@
                 <!-- PRODUCTO 3 -->
                 <div class="col-md-3 producto">
                     <div class="empaquetado">
+                        <div class="etiqueta-nuevo">
+                            <span>NUEVO</span>
+                        </div>
                         <a href="#"><figure><img src="img/producto3.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
                         <div class="prenda-stock">
@@ -183,6 +189,9 @@
                 <!-- PRODUCTO 8 -->
                 <div class="col-md-3 producto">
                     <div class="empaquetado">
+                        <div class="etiqueta-nuevo">
+                            <span>NUEVO</span>
+                        </div>
                         <a href="#"><figure><img src="img/producto8.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
                         <div class="prenda-stock">

@@ -264,6 +264,26 @@ figure{
 
 .producto{
     margin-bottom: 2.5em;
+    position: relative;
+}
+
+.etiqueta-nuevo{
+    color: #ffffff;
+    background: #d72966;
+    border-radius: 50%;
+    padding: 0.7em 0em 0em 0em;
+    position: absolute;
+    top: 1em;
+    right: 3.7em;
+    width: 3.2em;
+    height: 3.2em;
+    z-index: 1;
+}
+
+.etiqueta-nuevo span{
+    font-size: 0.7em !important;
+    font-family: 'Roboto-Condensed',sans-serif;
+    font-weight: bold;    
 }
 
 .producto figure{
@@ -271,6 +291,7 @@ figure{
     padding-left: 0.5em;
     padding-right: 0.5em;
     padding-top: 0.5em;
+    z-index: 2;
 }
 
 .producto span{
