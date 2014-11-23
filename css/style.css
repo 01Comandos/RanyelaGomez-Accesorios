@@ -206,19 +206,44 @@ figure{
     font-family: 'Roddy-Regular';
 }
 
-.categorias-index{
+.categorias-index, .categorias-categorias{
     margin-top: 1.5em;
     margin-bottom: 3em;
     text-align: center;
     position: relative;
 }
 
-.categorias-index li{
-    display: inline-block;
-    padding-right: 1.5em;
+.categorias-index:before{
+    background: #cdcdcd;
+    content: "";
+    top: 0.8em;
+    left: 0;
+    position: absolute;
+    width: 30%;
+    height: 2px;    
 }
 
-.categorias-index li a{
+.categorias-index:after{
+    background: #cdcdcd;
+    content: "";
+    top: 0.8em;
+    right: 6em;
+    position: absolute;
+    width: 20%;
+    height: 2px;
+}
+
+.categorias-index li, .categorias-categorias li{
+    border-right: 2px solid #636363;
+    display: inline-block;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+}
+
+#ultimo-categoria{
+    border-right: 0;
+}
+.categorias-index li a, .categorias-categorias li a{
     color: #636363;
     font-size: 1.2em;
     font-weight: bold;
@@ -226,20 +251,20 @@ figure{
     text-decoration: none;
 }
 
-.categorias-index li a:active{
+.categorias-index li a:active, .categorias-categorias li a:active{
     color: #d72966;
 }
 
-.categorias-index li a:hover{
+.categorias-index li a:hover, .categorias-categorias li a:hover{
     color: #d72966;
 }
-
-
-
 
 .controles-index{
     text-align: right;
     margin-top: 1em;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .controles-index span{
@@ -704,6 +729,8 @@ footer{
     text-align: center;
     width: 8em;
     text-indent: 0;
-
     margin-bottom: 4em;
 }
+
+/*********************************************************************
+*********************** CATEGORIAS.PHP ***************************************/

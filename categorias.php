@@ -21,69 +21,28 @@
   <body>
         <?php include 'inc/header.php'; ?>
     
-    <section class="SlideShow_principal">
-        <article id="miSlide" class="carousel slide">
-                <ol class="carousel-indicators">
-                        <li data-target="#miSlide" data-slide-to ="0" class="active"></li>
-                        <li data-target="#miSlide" data-slide-to ="1"></li>
-                        <li data-target="#miSlide" data-slide-to ="2"></li>
-                        <li data-target="#miSlide" data-slide-to ="3"></li>
-                </ol>
 
-                <div class="carousel-inner">
-                        <div class="item active">
-                            <img src="img/slide1.jpg" class="adaptar">
-                        </div>
-                        <div class="item">
-                            <img src="img/slide2.jpg" class="adaptar">
-                        </div>
-                        <div class="item">
-                            <img src="img/slide1.jpg" class="adaptar">
-                        </div>
-                        <div class="item">
-                            <img src="img/slide2.jpg" class="adaptar">
-                        </div>
-                </div>
-
-                <!--
-                    PASADORES
-                -->
-                <a href="#miSlide" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-                <a href="#miSlide" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-        </article>  
+    <section class="titulo-categoria text-center">
+        <h2>Temporada Julio - Agosto</h2>
     </section>
 
-    <section class="mas-visitados text-center">
+    <section class="titulo-categoria text-center">
         <!--
-            TITULO DE CUERPO ARTICULOS
+            TITULO DE LA CATEGORIA
         -->
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-lg-12 titulo-index">
-                    <h1>Ser autentica es nuestro mayor acierto</h1>
-                </div>
-            </div>
-
             <!--
                 PASADORES DE SECCIONES
             -->
             <div class="row">
-                <div class="col-md-12">
-                    <ul class="categorias-index">
+                <div class="col-md-8 col-md-offset-2">
+                    <ul class="categorias-categorias">
                         <li><a href="#">TODOS</a></li>
-                        <li><a href="#">MEJOR VENDIDO</a></li>
-                        <li id="ultimo-categoria"><a href="#">MÁS VISITADOS</a></li>
+                        <li><a href="#">Hasta 300Bs</a></li>
+                        <li><a href="#">Entre 300Bs y 700Bs</a></li>
+                        <li id="ultimo-categoria"><a href="#">Hasta 1500Bs</a></li>
                     </ul>
-
-                    <div class="controles-index">
-                        <a href="#"><span class="glyphicon glyphicon-chevron-left control-left"></span></a>
-                    <a href="#"><span class="glyphicon glyphicon-chevron-right control-right"></span></a>
-                    </div>
                 </div>
-                <!-- <div class="col-md-2 col-md-offset-1 controles-index">
-                    <a href="#"><span class="glyphicon glyphicon-chevron-left control-left"></span></a>
-                    <a href="#"><span class="glyphicon glyphicon-chevron-right control-right"></span></a>
-                </div> -->
             </div>
         </div>
 
@@ -207,35 +166,80 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    
-    <section class="newsletter">
-        <div class="container">
+
             <div class="row">
-                <div class="col-md-8">
-                    <div class="letritas">
-                        <h3>Porque lucir bellas y originales es una ciencia</h3>
-                    </div>
-                    <div class="formulario-newsletter">
-                        <form action="">
-                            <input type="email" name="email" placeholder="@Email" required="required" id="email3">
-                            <input type="submit" value="SUSCRIBETE" id="boton-suscribir">
-                        </form>
+                <!-- PRODUCTO 9 -->
+                <div class="col-md-3 producto">
+                    <div class="empaquetado">
+                        <div class="etiqueta-nuevo">
+                            <span>NUEVO</span>
+                        </div>
+                        <a href="#"><figure><img src="img/producto1.jpg"></figure></a>
+                        <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
+                        <div class="prenda-stock">
+                            <span class="prenda">Pulsera Mod-01</span>
+                            <span class="stock-etiqueta">STOCK</span>
+                        </div>
+                        <span class="precio">Bs.300</span>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="imagen-ciencia">
-                        <img src="img/img-newsletter.png" alt="">
+
+                <!-- PRODUCTO 10 -->
+                <div class="col-md-3 producto">
+                    <div class="empaquetado">
+                        <a href="#"><figure><img src="img/producto2.jpg" alt=""></figure></a>
+                        <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
+                        <div class="prenda-stock">
+                            <span class="prenda">Pulsera Mod-02</span>
+                            <span class="stock-etiqueta">STOCK</span>
+                        </div>
+                        <span class="precio">Bs.450</span>
+                    </div>
+                </div>
+
+                <!-- PRODUCTO 11 -->
+                <div class="col-md-3 producto">
+                    <div class="empaquetado">
+                        <div class="etiqueta-nuevo">
+                            <span>NUEVO</span>
+                        </div>
+                        <a href="#"><figure><img src="img/producto3.jpg" alt=""></figure></a>
+                        <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
+                        <div class="prenda-stock">
+                            <span class="prenda">Gargantilla Mod-01</span>
+                            <span class="stock-etiqueta">STOCK</span>
+                        </div>
+                        <span class="precio">Bs.600</span>
+                    </div>
+                </div>
+
+                <!-- PRODUCTO 12 -->
+                <div class="col-md-3 producto">
+                    <div class="empaquetado">
+                        <a href="#"><figure><img src="img/producto4.jpg" alt=""></figure></a>
+                        <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
+                        <div class="prenda-stock">
+                            <span class="prenda">Gargantilla Mod-02</span>
+                            <span class="stock-etiqueta">STOCK</span>
+                        </div>
+                        <span class="precio">Bs.530</span>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    
-    
-    
-    
+
+        <nav>
+          <ul class="pagination">
+            <li class="disabled"><a href="#"><span aria-hidden="true">&laquo;</span><span class="sr-only">Previous</span></a></li>
+            <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#"><span aria-hidden="true">&raquo;</span><span class="sr-only">Next</span></a></li>
+          </ul>
+        </nav>
+    </section>      
   
 
   </body>

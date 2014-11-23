@@ -17,21 +17,6 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript">
-            function validarFormularioContacto(){
-                JQuery.validator.message.required= 'Este campo es obligatorio.';
-                JQuery.validator.message.email='Escriba una dirección de correo valida';
-                $("#boton-contacto-enviar").click(function(){
-                    var validado = $("#contacto-formulario").valid();
-                    if(validado){
-                        alert ('El Formulario es Correcto');
-                    }
-                });
-            }
-            $(document).ready(function(){
-                validarFormularioContacto();
-            });
-    </script>
 
   </head>
   <body>
