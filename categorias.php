@@ -21,8 +21,7 @@
   <body>
         <?php include 'inc/header.php'; ?>
     
-
-    <section class="titulo-categoria text-center">
+    <section class="titulo-principal-categoria text-center">
         <h2>Temporada Julio - Agosto</h2>
     </section>
 
@@ -35,9 +34,9 @@
                 PASADORES DE SECCIONES
             -->
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-12 col-lg-12">
                     <ul class="categorias-categorias">
-                        <li><a href="#">TODOS</a></li>
+                        <li id="primero-categoria"><a href="#">TODOS</a></li>
                         <li><a href="#">Hasta 300Bs</a></li>
                         <li><a href="#">Entre 300Bs y 700Bs</a></li>
                         <li id="ultimo-categoria"><a href="#">Hasta 1500Bs</a></li>
@@ -52,7 +51,7 @@
         <div class="container listado-productos">
             <div class="row">
                 <!-- PRODUCTO 1 -->
-                <div class="col-md-3 producto">
+                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <div class="etiqueta-nuevo">
                             <span>NUEVO</span>
@@ -68,7 +67,7 @@
                 </div>
 
                 <!-- PRODUCTO 2 -->
-                <div class="col-md-3 producto">
+                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto2.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
@@ -81,7 +80,7 @@
                 </div>
 
                 <!-- PRODUCTO 3 -->
-                <div class="col-md-3 producto">
+                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <div class="etiqueta-nuevo">
                             <span>NUEVO</span>
@@ -97,7 +96,7 @@
                 </div>
 
                 <!-- PRODUCTO 4 -->
-                <div class="col-md-3 producto">
+                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto4.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
@@ -112,7 +111,7 @@
 
             <div class="row">
                 <!-- PRODUCTO 5 -->
-                <div class="col-md-3 producto">
+                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto5.jpg"></figure></a>
                         <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
@@ -125,7 +124,7 @@
                 </div>
 
                 <!-- PRODUCTO 6 -->
-                <div class="col-md-3 producto">
+                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto6.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
@@ -138,7 +137,7 @@
                 </div>
 
                 <!-- PRODUCTO 7 -->
-                <div class="col-md-3 producto">
+                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto7.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
@@ -151,7 +150,7 @@
                 </div>
 
                 <!-- PRODUCTO 8 -->
-                <div class="col-md-3 producto">
+                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <div class="etiqueta-nuevo">
                             <span>NUEVO</span>
@@ -169,7 +168,7 @@
 
             <div class="row">
                 <!-- PRODUCTO 9 -->
-                <div class="col-md-3 producto">
+                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <div class="etiqueta-nuevo">
                             <span>NUEVO</span>
@@ -185,7 +184,7 @@
                 </div>
 
                 <!-- PRODUCTO 10 -->
-                <div class="col-md-3 producto">
+                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto2.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
@@ -198,7 +197,7 @@
                 </div>
 
                 <!-- PRODUCTO 11 -->
-                <div class="col-md-3 producto">
+                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <div class="etiqueta-nuevo">
                             <span>NUEVO</span>
@@ -214,7 +213,7 @@
                 </div>
 
                 <!-- PRODUCTO 12 -->
-                <div class="col-md-3 producto">
+                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto4.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>

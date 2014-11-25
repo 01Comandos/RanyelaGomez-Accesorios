@@ -70,7 +70,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <ul class="categorias-index">
-                        <li><a href="#">TODOS</a></li>
+                        <li id="primero-categoria"><a href="#">TODOS</a></li>
                         <li><a href="#">MEJOR VENDIDO</a></li>
                         <li id="ultimo-categoria"><a href="#">MÁS VISITADOS</a></li>
                     </ul>
@@ -80,10 +80,6 @@
                     <a href="#"><span class="glyphicon glyphicon-chevron-right control-right"></span></a>
                     </div>
                 </div>
-                <!-- <div class="col-md-2 col-md-offset-1 controles-index">
-                    <a href="#"><span class="glyphicon glyphicon-chevron-left control-left"></span></a>
-                    <a href="#"><span class="glyphicon glyphicon-chevron-right control-right"></span></a>
-                </div> -->
             </div>
         </div>
 
@@ -93,7 +89,7 @@
         <div class="container listado-productos">
             <div class="row">
                 <!-- PRODUCTO 1 -->
-                <div class="col-md-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <div class="etiqueta-nuevo">
                             <span>NUEVO</span>
@@ -109,7 +105,7 @@
                 </div>
 
                 <!-- PRODUCTO 2 -->
-                <div class="col-md-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto2.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
@@ -122,7 +118,7 @@
                 </div>
 
                 <!-- PRODUCTO 3 -->
-                <div class="col-md-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <div class="etiqueta-nuevo">
                             <span>NUEVO</span>
@@ -138,7 +134,7 @@
                 </div>
 
                 <!-- PRODUCTO 4 -->
-                <div class="col-md-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto4.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
@@ -153,7 +149,7 @@
 
             <div class="row">
                 <!-- PRODUCTO 5 -->
-                <div class="col-md-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto5.jpg"></figure></a>
                         <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
@@ -166,7 +162,7 @@
                 </div>
 
                 <!-- PRODUCTO 6 -->
-                <div class="col-md-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto6.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
@@ -179,7 +175,7 @@
                 </div>
 
                 <!-- PRODUCTO 7 -->
-                <div class="col-md-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto7.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
@@ -192,7 +188,7 @@
                 </div>
 
                 <!-- PRODUCTO 8 -->
-                <div class="col-md-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <div class="etiqueta-nuevo">
                             <span>NUEVO</span>

@@ -122,7 +122,7 @@ figure{
     padding-bottom: 1em;
 }
 
-.formulario-login form input{
+.formulario-login form input, .formulario-DatosDePago form input{
     margin-left: 3px;
     text-indent: 15px;
     width: 241px;
@@ -133,12 +133,12 @@ figure{
     margin-bottom: 5px;
 }
 
-.btn-login{
+.btn-login, .btn-DatosDePago{
     text-align: center;
     margin-bottom: 2em;
 }
 
-#boton-login{
+#boton-login, #boton-DatosDePago{
     background: #d72966;
     border-bottom: 3px solid #b71e54;
     color: #ffffff;
@@ -582,6 +582,8 @@ footer{
     color: #ffffff;
     font-family: 'Roddy-Regular';
     font-size: 28px;
+    margin: 0;
+    padding: 0.5em;
 }
 
 .cuerpo-carrito{
@@ -602,16 +604,132 @@ footer{
     background-color: #e63e20;
 }
 
-.botones-principales-carrito.total-carrito button{
-    background-color: red;
+.total-carrito{
+    display: inline-block;
+}
+
+.total-carrito span{
+    background: #d3004f;
+    color: #ffffff;
+    font-family: 'Roboto-Condensed',sans-serif;
+    padding: 0.54em;
 }
 
 /************ CUERPO CARRITO **********/
 .articulo-carrito{
-    background-color: #ffffff;
-    margin-bottom: 1em;
-    margin-right: 0.5em;
+    margin-bottom: 1.5em;
+    padding: 0;
+    position: relative;
 }
+
+.borrar-articulo-carrito a{
+    border: 1px dashed #a0a0a0;
+    color: #a0a0a0;
+    top: 0.5em;
+    right: 0.5em;
+    padding: 0.4em 0.4em;
+    position: absolute;
+}
+
+.borrar-articulo-carrito a:hover{
+    color: #f95133;
+    border: 1px dashed #f95133;
+}
+
+
+.articulo-carrito figure{
+    float: left;
+    margin-right: 1em;
+}
+
+.articulo-carrito figure a img{
+    width: 10em;
+    height: 10em;
+}
+
+.datos-articulo-carrito{
+    padding: 0.6em 0 0 0;
+    background-color: #ffffff;
+    height: 10em;
+}
+
+.datos-articulo-carrito span{
+    display: block;
+    font-family: 'Roboto-Condensed',sans-serif;
+    margin-top: 0.1em;
+}
+
+#precio-carrito{
+    color: #d3004f;
+    font-size: 1.1em;
+}
+#productStockQuantity{
+    width: 3em;
+}
+
+
+/************ MODAL - DATOS DE PAGO **********/
+
+.titulo-DatosDePago{
+    border-bottom: 1px dashed #969696;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+#datos-title{
+    color: #d3004f;
+    font-family: 'Josefina-Regular';
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-left: 3em;
+}
+
+#datos-complemento{
+    color: #8f8f8f;
+    font-family: 'Roboto-Condensed',sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 2em;
+}
+
+#datos-complemento strong{
+    color: #d72966;
+}
+
+#boton-cerrar-modal-DatosDePago{
+    height: 35px;
+    background: #232a30;
+    margin-right: 5px;
+    border-radius: 0px;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    padding: 6px 12px;
+    position: absolute;
+    top: 0em;
+    right: 0;
+}
+
+#email-DatosDePago, #password-DatosDePago{
+    float: left;
+    margin-left: 1em;
+}
+
+.contrasena-DatosDePago a{
+    color: #d72966;
+    float: left;
+    margin-left: 1em;
+    margin-top: 0.6em;
+    text-decoration: none;
+}
+
+
+
+
+
+
 
 
 
