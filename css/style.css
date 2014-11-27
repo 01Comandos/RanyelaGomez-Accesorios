@@ -594,9 +594,9 @@ footer{
     background: #f95133;
     border: 0;
     color: #ffffff;
-    margin-top: 1em;
+    margin-top: 1.7em;
     margin-bottom: 2em;
-    padding: 0.4em;
+    padding: 0.6em;
     width: auto;
 }
 
@@ -612,7 +612,7 @@ footer{
     background: #d3004f;
     color: #ffffff;
     font-family: 'Roboto-Condensed',sans-serif;
-    padding: 0.54em;
+    padding: 0.7em 0.6em;
 }
 
 /************ CUERPO CARRITO **********/
@@ -620,6 +620,10 @@ footer{
     margin-bottom: 1.5em;
     padding: 0;
     position: relative;
+}
+
+.articulo-carrito:hover{
+    box-shadow: 0 8px 6px -6px black;
 }
 
 .borrar-articulo-carrito a{
@@ -635,7 +639,6 @@ footer{
     color: #f95133;
     border: 1px dashed #f95133;
 }
-
 
 .articulo-carrito figure{
     float: left;
@@ -663,8 +666,36 @@ footer{
     color: #d3004f;
     font-size: 1.1em;
 }
-#productStockQuantity{
-    width: 3em;
+
+.stock-quantity-inputs{
+    margin-top: 0.3em;
+}
+
+.stock-quantity-inputs input[type='button']{
+    background-color: #F4F4F4;
+    border: 0.1em solid #e7e7e7;
+    border-radius: 0.2em;
+    cursor: pointer;
+    width: 0.6em;
+    font-size: 1em;
+}
+
+.stock-quantity-increments{
+    padding: 0em 1em 0.2em 0.5em !important;
+}
+
+.stock-quantity-inputs input{
+    background-color: #eaeaea;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+    float: left;
+    width: 2.5em;
+    height: 2em;
+    margin: 0;
+    padding: 1em 1em;
+    text-align: center; 
 }
 
 
@@ -725,11 +756,6 @@ footer{
     text-decoration: none;
 }
 
-.modal-dialog.modal-lg-FormalizarPago.modal-content{
-    width: 900px !important;
-
-}
-
 #nombre-banco, #monto-pago, #serial-pago, #calendario-ConfirmarPago, #direccion-envio{
     float: left;
 }
@@ -742,8 +768,18 @@ footer{
 }
 
 #calendario-ConfirmarPago input{
-    width: 15em;
+    width: 14.51em;
 }
+
+.input-group-addon{
+    height: 2.9em;
+    width: 2em;
+}
+
+.glyphicon-calendar:before, .glyphicon-time:before{
+    margin-left: -1em;
+}
+
 
 .dividir{
     border-top: 1px dashed #969696;

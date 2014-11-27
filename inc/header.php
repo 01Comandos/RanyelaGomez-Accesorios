@@ -9,12 +9,12 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="btn-group botones-superiores">
                       <button class="btn btn-default btn-superior" onclick="location.href='inscribete.php'"><img src="img/inscribete-icono.png" alt="">Inscríbete</button>
-                      <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg"><img src="img/ingresa_icon.png" id="ingresa">Ingresa</button>
+                      <button class="btn btn-primary" data-toggle="modal" data-target=".modal-ingresar"><img src="img/ingresa_icon.png" id="ingresa">Ingresa</button>
                         <!--
                           COMPONENTES MODAL 
                         -->
                         <!-- Large modal -->
-                        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="modal-ingresar">
+                        <div class="modal fade modal-ingresar" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="modal-ingresar">
                           <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                                 <div class="modal-footer">
