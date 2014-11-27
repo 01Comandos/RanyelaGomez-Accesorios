@@ -122,10 +122,10 @@ figure{
     padding-bottom: 1em;
 }
 
-.formulario-login form input, .formulario-DatosDePago form input{
+.formulario-login form input, .formulario-DatosDePago form input, .formulario-FormalizarPago form input{
     margin-left: 3px;
     text-indent: 15px;
-    width: 241px;
+    width: 17.5em;
     height: 41px;
     border-radius: 3px;
     border: 1px solid #a8a8a8;
@@ -133,12 +133,12 @@ figure{
     margin-bottom: 5px;
 }
 
-.btn-login, .btn-DatosDePago{
+.btn-login, .btn-DatosDePago, .btn-FormalizarPago{
     text-align: center;
     margin-bottom: 2em;
 }
 
-#boton-login, #boton-DatosDePago{
+#boton-login, #boton-DatosDePago, #boton-FormalizarPago{
     background: #d72966;
     border-bottom: 3px solid #b71e54;
     color: #ffffff;
@@ -724,6 +724,49 @@ footer{
     margin-top: 0.6em;
     text-decoration: none;
 }
+
+.modal-dialog.modal-lg-FormalizarPago.modal-content{
+    width: 900px !important;
+
+}
+
+#nombre-banco, #monto-pago, #serial-pago, #calendario-ConfirmarPago, #direccion-envio{
+    float: left;
+}
+
+#calendario-ConfirmarPago{
+    margin-bottom: 0.5em;
+    text-indent: 15px;
+    width: 10em;
+    height: 2.9em;
+}
+
+#calendario-ConfirmarPago input{
+    width: 15em;
+}
+
+.dividir{
+    border-top: 1px dashed #969696;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#direccion-envio{
+    border-radius: 3px;
+    text-indent: 1em;
+    height: 4.5em;
+    width: 17.5em;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

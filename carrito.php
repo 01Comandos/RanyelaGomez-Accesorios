@@ -9,6 +9,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/master/build/css/bootstrap-datetimepicker.min.css" />
     <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -31,12 +32,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 botones-principales-carrito text-center">
-                    <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Datos de Pago</button>
+
+                    <button class="btn btn-primary" data-toggle="modal" data-target=".modal-datos-de-pago">Datos de Pago</button>
                     <!--
                           MODAL 1: CARRITO ENVIO DE DATOS DE PAGO 
                         -->
                         <!-- Large modal -->
-                        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="modal-ingresar">
+                        <div class="modal fade modal-datos-de-pago" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="modal-ingresar">
                           <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                                 <div class="modal-footer">
@@ -88,15 +90,110 @@
                         <!-- FIN COMPONENTE MODAL -->
 
 
+                    <button class="btn btn-primary" data-toggle="modal" data-target=".modal-formalizar-pago">Formalizar Pago</button>
+
+                    <!--
+                          MODAL 2: FORMALIZAR PAGOS 
+                        -->
+                        <!-- Large modal -->
+                        <div class="modal fade modal-formalizar-pago" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="modal-ingresar">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-footer">
+                                      <button type="button" class="btn btn-default pull-right" data-dismiss="modal" id="boton-cerrar-modal-DatosDePago">Cerrar</button>
+                                </div>
+
+                                <div class="titulo-DatosDePago">
+                                  <span id="datos-title">Formalizar Pago</span>
+                                  <span id="datos-complemento">Confirmaremos tu <strong>Operación Bancaria</strong> en <strong>24hrs hábiles</strong></span>
+                                </div>
+
+                                <div class="formulario-FormalizarPago">
+                                        <form action="inc/procesaformulario-FormalizarPago.php" method="POST">      
+                                            <div class="row">
+                                                  <div class="col-md-4 text-center">
+                                                      <div class="etiqueta-formulario">
+                                                          <span>Entidad Bancaria</span>
+                                                      </div>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                      <input type="text" name="name-bank"  required="required" id="nombre-banco">
+                                                  </div>
+                                            </div>
+
+                                            <div class="row">
+                                                  <div class="col-md-4">
+                                                      <div class="etiqueta-formulario">
+                                                          <span>Monto</span>
+                                                      </div>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                      <input type="text" name="monto-pago" required="required" id="monto-pago" >
+                                                  </div>
+                                            </div>
+
+                                            <div class="row">
+                                                  <div class="col-md-4">
+                                                      <div class="etiqueta-formulario">
+                                                          <span>Serial de Operación</span>
+                                                      </div>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                      <input type="text" name="serial" required="required" id="serial-pago" >
+                                                  </div>
+                                            </div>
+
+                                            <div class="row">
+                                                  <div class="col-md-4">
+                                                      <div class="etiqueta-formulario">
+                                                          <span>Fecha</span>
+                                                      </div>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                      
+                                                        <div class="form-group">
+                                                            <div class='input-group date' id='calendario-ConfirmarPago'>
+                                                                <input type='text' class="form-control" />
+                                                                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                                                                </span>
+                                                            </div>
+                                                        </div>                                            
+                                                        
+                                                  </div>
+                                                  
+                                            </div>
+                                            <div class="dividir">
+                                                <!-- LADO OSCURO DE LA WEB 
+                                                PARA CREAR LA DIVISION DE DIRECCION 
+                                                CON EL RESTO DEL FORMULARIO -->
+                                            </div>
+
+                                            <div class="row direccion-envio">
+                                                  <div class="col-md-4">
+                                                      <div class="etiqueta-formulario">
+                                                          <span>Dirección de Envío</span>
+                                                      </div>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                      <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" required="required" id="direccion-envio"></textarea>
+                                                  </div>
+                                            </div>                                                   
+
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="btn-FormalizarPago">
+                                                        <input type="submit" value="Confirmar" id="boton-FormalizarPago">
+                                                    </div>
+                                                </div>   
+                                            </div>                                            
+                                        </form>                
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- FIN COMPONENTE MODAL -->
 
 
-
-
-
-
-
-
-                    <button>Formalizar Pago</button>
                     <div class="total-carrito">
                         <span>Total: <strong>3.000 Bs</strong></span>
                     </div> 
