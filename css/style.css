@@ -73,7 +73,7 @@ figure{
 /****** NAVEGACIÓN *******/
 .menu-principal{
     margin-right: 0;
-    margin-top: 30px;
+    margin-top: 1.5em;
 }
 
 .menu-principal span{
@@ -82,7 +82,11 @@ figure{
 
 .menu-principal li{
     display: inline-block;
-    padding-right: 2em;
+    padding: 0.5em 1em !important;
+}
+
+.menu-principal li:hover{
+    border: 2px solid #d3004f;
 }
 
 .menu-principal li a{
@@ -92,6 +96,8 @@ figure{
     font-weight: bold;
     text-decoration: none;
 }
+
+
 
 /* ----- VENTANA MODAL LOGIN -----*/
 #ingresa{
@@ -262,7 +268,7 @@ figure{
     color: #d72966;
 }
 
-.controles-index{
+.controles-index, .controles-recomendados{
     text-align: right;
     margin-top: 1em;
     position: absolute;
@@ -270,7 +276,7 @@ figure{
     top: 0;
 }
 
-.controles-index span{
+.controles-index span, .controles-recomendados span{
     background: #d72966;
     border: 2px solid #e7727e;
     color: #ffffff;
@@ -281,7 +287,7 @@ figure{
     height: 2.5em;
 }
 
-.controles-index a span:hover{
+.controles-index a span:hover, .controles-recomendados a span:hover{
     background-color: #e50f5f;
 }
 
@@ -795,24 +801,6 @@ footer{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*********************************************************************
 *********************** CONTACTO ***************************************/
 .contacto-section{
@@ -944,16 +932,6 @@ footer{
     position: relative;
 }
 
-.titulo-principal-categoria:before{
-    border-left: 30px solid transparent;
-    border-top: 30px solid #d3004f;
-    border-right: 30px solid transparent;
-    content: "";
-    position: absolute;
-    top: 7.5em;
-    left: 35.5em;
-}
-
 .titulo-principal-categoria h2{
     font-family: 'Roddy-Regular';
     font-size: 2.5em;
@@ -1004,4 +982,161 @@ footer{
 .pagination li a:hover{
     background: #d40050;
     color: #ffffff;
+}
+
+
+/*********************************************************************
+*********************** PRODUCTO.PHP ***************************************/
+.detalles-producto{
+    background: #eeeeee;
+}
+
+.datos-generales-producto{
+    background: #ffffff;
+    width: auto;
+    padding: 1em 2em 1em 2em;
+}
+
+#descripcion{
+
+}
+
+.Producto-contenido{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.botones-producto-detalles{
+    float: right;
+    margin-top: -9em;
+}
+
+.botones-producto-detalles button{
+    border: 0;
+    background: #1cae91;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#icon-agregar-carrito{
+    padding-right: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+.follow-producto{
+    background: #ffffff;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+.titulo-sociales-producto{
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+.titulo-sociales-producto span{
+    color: #d3004f;
+    font-family: 'Gloria';
+    font-size: 1.1em;
+}
+
+.recomendados-titulo{
+    text-align: left;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    position: relative;
+}
+
+.recomendados-titulo span{
+    color: #636363;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Roboto-Condensed',sans-serif;
+}
+
+.recomendados-titulo:after{
+    background: #cdcdcd;
+    content: "";
+    top: 0.8em;
+    right: 6em;
+    position: absolute;
+    width: 80%;
+    height: 2px;
+}
+
+.controles-recomendados{
+    top: 1.5em !important;
+}
+
+/********************** SLIDE DE IMAGENES ***********************/
+#malditas-columnas-caga-anchos{
+    margin: 0;
+    padding: 0;
+}
+
+#indicators-productos{
+    top: 0em;
+}
+
+#indicators-productos li{
+    margin-bottom: 4.5em;
+}
+
+#slide-detalles-producto{
+    position: relative;
+}
+
+#slide-detalles-producto ol li{
+    display: block;
+}
+
+#slide-detalles-producto ol li img{
+    display: block !important;
+    margin-bottom: 3em;
+    width: 4.5em;
+    height: 4.5em;
+}
+
+#imagenes-ppal-detalles img{
+    width: 21.5em;
+    height: 21.5em;
+}
+
+#facebook-producto, #twitter-producto, #google-producto{
+    display: inline-block;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    padding: 0.5em 0.5em;
+}
+
+#facebook-producto a span, #twitter-producto a span, #google-producto a span{
+    color: #ffffff;
+    font-family: 'Roboto-Condensed',sans-serif;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#facebook-producto a, #twitter-producto a, #google-producto a{
+    text-decoration: none;
+}
+
+#facebook-producto{
+    background-color: #0067b1;
+    border-bottom: 0.25em solid #045189;
+}
+
+#twitter-producto{
+    background-color: #81e0fe;
+    border-bottom: 0.3em solid #48cff9;
+    margin: 0;
+}
+
+#google-producto{
+    background-color: #d83f42;
+    border-bottom: 0.3em solid #ba292c;
+}
+
+#google-producto a img, #facebook-producto a img{
+    padding: 0;
 }

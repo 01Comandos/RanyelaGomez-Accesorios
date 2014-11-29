@@ -77,7 +77,7 @@
 
                     <div class="controles-index">
                         <a href="#"><span class="glyphicon glyphicon-chevron-left control-left"></span></a>
-                    <a href="#"><span class="glyphicon glyphicon-chevron-right control-right"></span></a>
+                        <a href="#"><span class="glyphicon glyphicon-chevron-right control-right"></span></a>
                     </div>
                 </div>
             </div>
