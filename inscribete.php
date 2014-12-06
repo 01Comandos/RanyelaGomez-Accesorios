@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ranyela Gómez - Accesorios</title>
+    <title>Accesorios Ranyela Gómez</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -27,7 +27,7 @@
               <div class="row">
                   <div class="col-md-12">
                       <div class="logo-inscribete">
-                        <img src="img/ranyela-logotipo.png" alt="">
+                        <a href="index.php"><img src="img/ranyela-logotipo.png" alt=""></a>
                       </div>
                   </div>
               </div>

@@ -73,7 +73,7 @@ figure{
 /****** NAVEGACIÓN *******/
 .menu-principal{
     margin-right: 0;
-    margin-top: 1.5em;
+    margin-top: 2.5em;
 }
 
 .menu-principal span{
@@ -82,21 +82,33 @@ figure{
 
 .menu-principal li{
     display: inline-block;
-    padding: 0.5em 1em !important;
-}
-
-.menu-principal li:hover{
-    border: 2px solid #d3004f;
 }
 
 .menu-principal li a{
+    border: 2px solid transparent;
     color: #262626;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
+    padding: 0.5em 1em;
 }
 
+.menu-principal li a:hover{
+    border-color: #d3004f;
+    color: #d3004f;
+}
+
+.menu-principal li a:active{
+    background: #d3004f;
+    color: #ffffff;
+}
+
+#home-icon, #home-icon:hover{
+    border: 2px solid transparent;
+}
+
+.opcion-principal 
 
 
 /* ----- VENTANA MODAL LOGIN -----*/
@@ -114,6 +126,8 @@ figure{
 }
 
 #boton-cerrar-modal{
+    background: #d72966;
+    border:0;
     position: absolute;
     top: 0.3em;
     right: 0;
@@ -137,6 +151,10 @@ figure{
     border: 1px solid #a8a8a8;
     background-color: #ffffff;
     margin-bottom: 5px;
+}
+
+.formulario-login{
+    margin-top: 2em;
 }
 
 .btn-login, .btn-DatosDePago, .btn-FormalizarPago{
@@ -181,6 +199,119 @@ figure{
     bottom: 0;
     background-color: #000;
 }
+
+#GGGG{
+    text-align: center;
+    font-size: 1.3em;
+    margin-left: -0.5em;
+}
+
+.twitter-registro{
+    background: #60a9de;
+    border-radius: 2px;
+    border-bottom: 0.3em solid #4984a6;
+    float: right;
+    padding: 0.5em 0.5em;
+    width: 17em;
+    text-decoration: none;
+}
+
+.twitter-registro:hover{
+    background: #88bee6;
+    border-bottom: 0.3em solid #72a4c1;
+    text-decoration: none;
+}
+
+.twitter-registro  span, .facebook-registro span{
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 0.2em;
+    font-size: 1.2em;
+    font-family: 'Roboto-Condensed', sans-serif;
+    margin-left: 0.3em;
+}
+
+.facebook-registro  figure{
+    margin-left: 5px;
+}
+
+.icono-registro-social{
+    border-right: 1px solid #ffffff;
+    display: inline-block;
+    padding: 0.3em 0.3em;
+    width: 2.5em;
+}
+
+.facebook-registro{
+    background: #3b5999;
+    border-radius: 2px;
+    border-bottom: 0.3em solid #274271;
+    float: left;
+    padding: 0.5em 0.5em;
+    margin-right: 1.5em;
+    width: 19em;
+
+    text-decoration: none;
+}
+
+.facebook-registro:hover{
+    background: #5e7dc1;
+    border-bottom: 0.3em solid #3e69b4;
+    text-decoration: none;
+}
+
+.inscripcion-tradicional{
+    text-align: center;
+    padding: 1.5em 0;
+    margin-bottom: 2em;
+}
+
+.inscripcion-tradicional span{
+    display: block;
+    font-family: 'Roboto-Condensed', sans-serif;
+    margin-bottom: 1em;
+}
+
+.inscripcion-tradicional a{
+    color: #d3004f;
+    border: 1px solid #d3004f;
+    border-radius: 0.2em;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Roboto-Condensed', sans-serif;
+    padding: 0.5em;
+}
+
+.inscripcion-tradicional a:hover{
+    color: #ffffff;
+    background: #d3004f;
+    border: 1px solid transparent;
+    border-radius: 0.2em;
+}
+
+.titulo-ingresar-tradicional{
+    color: #626262;
+    font-family: 'Roboto-Condensed',sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------ SLIDE PRINCIPAL ------*/
 .carousel-indicators .active{
     background: #d72966;

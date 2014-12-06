@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ranyela Gómez - Accesorios</title>
+    <title>Accesorios Ranyela Gómez</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -51,7 +51,7 @@
         <div class="container listado-productos">
             <div class="row">
                 <!-- PRODUCTO 1 -->
-                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <div class="etiqueta-nuevo">
                             <span>NUEVO</span>
@@ -67,7 +67,7 @@
                 </div>
 
                 <!-- PRODUCTO 2 -->
-                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto2.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
@@ -80,7 +80,7 @@
                 </div>
 
                 <!-- PRODUCTO 3 -->
-                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <div class="etiqueta-nuevo">
                             <span>NUEVO</span>
@@ -96,7 +96,7 @@
                 </div>
 
                 <!-- PRODUCTO 4 -->
-                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto4.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
@@ -111,7 +111,7 @@
 
             <div class="row">
                 <!-- PRODUCTO 5 -->
-                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto5.jpg"></figure></a>
                         <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
@@ -124,7 +124,7 @@
                 </div>
 
                 <!-- PRODUCTO 6 -->
-                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto6.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
@@ -137,7 +137,7 @@
                 </div>
 
                 <!-- PRODUCTO 7 -->
-                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto7.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
@@ -150,7 +150,7 @@
                 </div>
 
                 <!-- PRODUCTO 8 -->
-                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <div class="etiqueta-nuevo">
                             <span>NUEVO</span>
@@ -168,7 +168,7 @@
 
             <div class="row">
                 <!-- PRODUCTO 9 -->
-                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <div class="etiqueta-nuevo">
                             <span>NUEVO</span>
@@ -184,7 +184,7 @@
                 </div>
 
                 <!-- PRODUCTO 10 -->
-                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto2.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
@@ -197,7 +197,7 @@
                 </div>
 
                 <!-- PRODUCTO 11 -->
-                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <div class="etiqueta-nuevo">
                             <span>NUEVO</span>
@@ -213,7 +213,7 @@
                 </div>
 
                 <!-- PRODUCTO 12 -->
-                <div class="col-xs-6 col-sm 6 col-md-3 col-lg-3 producto">
+                <div class="col-md-3 col-lg-3 producto">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto4.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>

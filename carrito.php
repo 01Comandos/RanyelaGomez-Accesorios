@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ranyela Gómez - Accesorios</title>
+    <title>Accesorios Ranyela Gómez</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -51,7 +51,7 @@
                                 </div>
 
                                 <div class="formulario-DatosDePago">
-                                        <form action="inc/procesaformulario-DatosDePago.php" method="POST">      
+                                        <form action="inc/procesaformulario-DatosDePago.php" method="POST" id="formulario-DatosDePago">      
                                             <div class="row">
                                                   <div class="col-md-4 text-center">
                                                       <div class="etiqueta-formulario">
@@ -78,7 +78,7 @@
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="btn-DatosDePago">
-                                                        <input type="submit" value="Confirmar" id="boton-DatosDePago">
+                                                        <input type="submit" value="Confirmar" id="boton-DatosDePago" onclick="enviar-DatosDePago">
                                                     </div>
                                                 </div>   
                                             </div>                                            
@@ -109,7 +109,7 @@
                                 </div>
 
                                 <div class="formulario-FormalizarPago">
-                                        <form action="inc/procesaformulario-FormalizarPago.php" method="POST">      
+                                        <form action="inc/procesaformulario-FormalizarPago.php" method="POST" id="formulario-FormalizarPago">      
                                             <div class="row">
                                                   <div class="col-md-4 text-center">
                                                       <div class="etiqueta-formulario">
@@ -149,16 +149,14 @@
                                                           <span>Fecha</span>
                                                       </div>
                                                   </div>
-                                                  <div class="col-md-8">
-                                                      
+                                                  <div class="col-md-8">                                                      
                                                         <div class="form-group">
                                                             <div class='input-group date' id='calendario-ConfirmarPago'>
-                                                                <input type='text' class="form-control" />
+                                                                <input type='text' class="form-control" id="calendario" />
                                                                 <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
                                                                 </span>
                                                             </div>
-                                                        </div>                                            
-                                                        
+                                                        </div>
                                                   </div>
                                                   
                                             </div>
@@ -182,7 +180,7 @@
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="btn-FormalizarPago">
-                                                        <input type="submit" value="Confirmar" id="boton-FormalizarPago">
+                                                        <input type="submit" value="Confirmar" id="boton-FormalizarPago" onclick="enviar-FormalizarPago">
                                                     </div>
                                                 </div>   
                                             </div>                                            
