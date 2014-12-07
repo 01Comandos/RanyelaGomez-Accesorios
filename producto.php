@@ -93,12 +93,64 @@
                                     <input type="button" class="stock-quantity-increments" name="pop" value="-" disabled="">
                                     <input type="number" id="productStockQuantity" class="stock-quantity-input" data-validate="number" name="quantity" min="1" max="9999" title="Cantidad de Unidades" value="1">
                                     <input type="button" class="stock-quantity-increments" name="push" value="+">
-                                </div>                          
+                              </div>                          
                             </div> 
 
                             <div class="botones-producto-detalles">
                                     <button class="btn btn-primary"><img src="img/agregar-al-carrito-icon.png" id="icon-agregar-carrito">Agregar al carrito</button>
-                                    <button class="btn btn-primary">Comprar</button>
+                                    <button class="btn btn-primary" data-toggle="modal" data-target=".modal-comprar">Comprar</button>
+                                    
+                                    <!--
+                                      MODAL: COMPRAR - TIPO DE PAGO 
+                                    -->
+
+                                    <div class="modal fade modal-comprar" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="modal-ingresar">
+                                      <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default pull-right cerrar-ventana" data-dismiss="modal" id="boton-cerrar-modal">Cerrar</button>
+                                            </div>
+
+                                            <div class="titulo-compra">
+                                              <span id="compra-title">Ranyela, confirma tu compra</span>
+                                            </div>
+
+                                            <div class="row">
+                                                  <div class="col-md-5 text-center">
+                                                      <div class="imagen-producto-comprar">
+                                                          <figure><img src="img/producto2.jpg" alt=""></figure>
+                                                          <span>Temporada Noviembre - Diciembre <br>Pulsera 01-A</span>
+                                                          <span id="precio-comprar-modal">Bs.F. 1350</span>
+                                                      </div>
+                                                  </div>
+                                                  <div class="col-md-7">
+                                                    <div class="cantidad-ventana-comprar">
+                                                        <span>Cantidad:</span>
+                                                        <div class="stock-quantity-inputs" data-component="quantitySelector" id="contador-ventana-comprar">
+                                                            <input type="button" class="stock-quantity-increments" name="pop" value="-" disabled="">
+                                                            <input type="number" id="productStockQuantity" class="stock-quantity-input" data-validate="number" name="quantity" min="1" max="9999" title="Cantidad de Unidades" value="1">
+                                                            <input type="button" class="stock-quantity-increments" name="push" value="+">
+                                                       </div>
+                                                    </div>
+
+                                                    <div class="email-ventana-comprar">
+                                                        <span id="email-title">Email:</span>
+                                                        <span id="correo-usuario-comprar">comandos@comandosgroup.com.ve</span>
+                                                    </div>
+
+                                                    <div class="botones-confirmar-compra">
+                                                        <button>Pagar con MercadoPago</button>
+                                                        <button>Confirmar Compra</button>
+                                                    </div>
+
+                                                    
+                                                  </div>
+                                            </div>
+
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- FIN COMPONENTE MODAL -->
                             </div>
                     </div>
                     <div class="follow-producto text-center">

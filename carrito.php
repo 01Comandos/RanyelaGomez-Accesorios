@@ -31,9 +31,9 @@
     <section class="cuerpo-carrito">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12 botones-principales-carrito text-center">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
 
-                    <button class="btn btn-primary" data-toggle="modal" data-target=".modal-datos-de-pago">Datos de Pago</button>
+                    <button class="btn btn-primary botones-principales-carrito" data-toggle="modal" data-target=".modal-datos-de-pago">Datos de Pago</button>
                     <!--
                           MODAL 1: CARRITO ENVIO DE DATOS DE PAGO 
                         -->
@@ -42,7 +42,7 @@
                           <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                                 <div class="modal-footer">
-                                      <button type="button" class="btn btn-default pull-right" data-dismiss="modal" id="boton-cerrar-modal-DatosDePago">Cerrar</button>
+                                      <button type="button" class="btn btn-default pull-right cerrar-ventana" data-dismiss="modal" id="boton-cerrar-modal">Cerrar</button>
                                 </div>
 
                                 <div class="titulo-DatosDePago">
@@ -90,7 +90,7 @@
                         <!-- FIN COMPONENTE MODAL -->
 
 
-                    <button class="btn btn-primary" data-toggle="modal" data-target=".modal-formalizar-pago">Formalizar Pago</button>
+                    <button class="btn btn-primary botones-principales-carrito" data-toggle="modal" data-target=".modal-formalizar-pago">Formalizar Pago</button>
 
                     <!--
                           MODAL 2: FORMALIZAR PAGOS 
@@ -100,7 +100,7 @@
                           <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                                 <div class="modal-footer">
-                                      <button type="button" class="btn btn-default pull-right" data-dismiss="modal" id="boton-cerrar-modal-DatosDePago">Cerrar</button>
+                                      <button type="button" class="btn btn-default pull-right cerrar-ventana" data-dismiss="modal" id="boton-cerrar-modal">Cerrar</button>
                                 </div>
 
                                 <div class="titulo-DatosDePago">

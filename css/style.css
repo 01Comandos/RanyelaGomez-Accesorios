@@ -42,7 +42,7 @@ figure{
     position: relative;
 }
 
-.botones-superiores button{
+.botones-superiores button, .cerrar-ventana{
     height: 35px;
     background: #232a30;
     margin-right: 5px;
@@ -296,21 +296,6 @@ figure{
     text-align: center;
     margin-bottom: 0.5em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ------ SLIDE PRINCIPAL ------*/
 .carousel-indicators .active{
@@ -718,7 +703,7 @@ footer{
 .usuario-carrito-banner h2{
     color: #ffffff;
     font-family: 'Roddy-Regular';
-    font-size: 28px;
+    font-size: 2em;
     margin: 0;
     padding: 0.5em;
 }
@@ -727,7 +712,7 @@ footer{
     background: #eeeeee;
 }
 
-.botones-principales-carrito button{
+.botones-principales-carrito{
     background: #f95133;
     border: 0;
     color: #ffffff;
@@ -866,20 +851,6 @@ footer{
     color: #d72966;
 }
 
-#boton-cerrar-modal-DatosDePago{
-    height: 35px;
-    background: #232a30;
-    margin-right: 5px;
-    border-radius: 0px;
-    color: #ffffff;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 12px;
-    padding: 6px 12px;
-    position: absolute;
-    top: 0em;
-    right: 0;
-}
-
 #email-DatosDePago, #password-DatosDePago{
     float: left;
     margin-left: 1em;
@@ -953,7 +924,7 @@ footer{
 .contacto-titulo h4{
     color: #f95133;
     font-family: 'Gloria';
-    font-size: 16px;
+    font-size: 1em;
     margin-top: -0.5em;
 }
 
@@ -1014,8 +985,9 @@ footer{
     display: inline-block;
 }
 
-#mensaje-contacto{
+#mensaje-contacto, #direccion-envio{
     height: 4.5em;
+    resize: none;
 }
 
 .email-contacto figure{
@@ -1043,7 +1015,7 @@ footer{
     border-bottom: 3px solid #e13c1e;
     color: #ffffff;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: bold;
     margin-top: 1em;
     text-align: center;
@@ -1126,10 +1098,6 @@ footer{
     background: #ffffff;
     width: auto;
     padding: 1em 2em 1em 2em;
-}
-
-#descripcion{
-
 }
 
 .Producto-contenido{
@@ -1270,4 +1238,77 @@ footer{
 
 #google-producto a img, #facebook-producto a img{
     padding: 0;
+}
+
+/********************** MODAL COMPRAR ***********************/
+.titulo-compra{
+    margin-left: 1.5em;
+    border-bottom: 1px dashed #969696;
+}
+
+#compra-title{
+    font-size: 1.2em;
+    font-family: 'Roboto-Condensed', sans-serif;
+}
+
+.imagen-producto-comprar{
+    margin: 1.5em 0;
+}
+
+.imagen-producto-comprar span{
+    color: #4d4d4d;
+    font-size: 1em;
+    font-family: 'Roboto-Condensed', sans-serif;
+}
+
+#precio-comprar-modal{
+    color: #ffffff;
+    background-color: #d72966;
+    display: block;
+    font-weight: bold;
+    padding: 0.5em;
+    width: auto;
+}
+
+.cantidad-ventana-comprar{
+    margin-top: 1.5em;
+    display: block;
+}
+
+#contador-ventana-comprar{
+    display: block;
+    height: 2.5em;
+}
+
+.email-ventana-comprar{
+    border-bottom: 1px dashed #969696;
+    padding-bottom: 0.8em;
+}
+
+.email-ventana-comprar{
+    margin-top: 0.5em;
+}
+
+.email-ventana-comprar span{
+    font-size: 1em;
+    font-family: 'Roboto-Condensed',sans-serif;
+}
+
+#correo-usuario-comprar{
+    background-color: #f4f4f4;
+    color: #8d8d8d;
+    font-size: 1em;
+    font-family: 'Roboto-Condensed',sans-serif;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+.botones-confirmar-compra button{
+    display: inline-block;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+.botones-confirmar-compra button:hover{
+    background-color: #179d82;
 }
