@@ -726,6 +726,14 @@ footer{
     background-color: #e63e20;
 }
 
+#mercadopago-carrito{
+    background: #1cae91;
+}
+
+#mercadopago-carrito:hover{
+    background-color: #179d82;
+}
+
 .total-carrito{
     display: inline-block;
 }
