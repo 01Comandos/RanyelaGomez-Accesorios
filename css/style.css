@@ -611,16 +611,16 @@ footer{
 .etiqueta-formulario{
     text-align: right;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 14px;
+    font-size: 1em;
     font-weight: bold;
-    margin-top: 7px;
+    margin-top: 0.5em;
 }
 
 .formulario form input{
     margin-left: 3px;
     text-indent: 15px;
-    width: 241px;
-    height: 41px;
+    width: 17.3em;
+    height: 3em;
     border-radius: 3px;
     border: 1px solid #a8a8a8;
     background-color: #ffffff;
@@ -628,18 +628,18 @@ footer{
 }
 
 .contrasena span{
-    font-size: 12px;
+    font-size: 1em;
     font-weight: 500;
     font-family: 'Roboto Condensed', sans-serif;
     color: #d72966;
 }
 
 #documento-identidad{
-    width: 150px;
+    width: 10em;
 }
 
 .seccion-documento{
-    text-align: center;
+    text-align: left;
 }
 
 .btn-inscripcion{

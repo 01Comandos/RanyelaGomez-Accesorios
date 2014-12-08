@@ -19,20 +19,7 @@
   </head>
   <body>
 
-      <!--
-          LOGOTIPO
-      -->
-      <section class="header">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-12">
-                      <div class="logo-inscribete">
-                        <a href="index.php"><img src="img/ranyela-logotipo.png" alt=""></a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
+      <?php include 'inc/header.php'; ?>
     
     <!-- 
         FORMULARIO DE REGISTRO
@@ -52,7 +39,7 @@
                       <form action="inc/procesaformulario.php" method="POST">
                               <div class="container">
                                   <div class="row">
-                                        <div class="col-md-3">
+                                        <div class="col-md-3 col-lg-3">
                                             <div class="etiqueta-formulario">
                                                 <span>Nombre</span>
                                             </div>                              
@@ -63,7 +50,7 @@
                                   </div>
 
                                   <div class="row">
-                                        <div class="col-md-3">
+                                        <div class="col-md-3 col-lg-3">
                                             <div class="etiqueta-formulario">
                                                 <span>Apellido</span>
                                             </div>
@@ -74,7 +61,7 @@
                                   </div>
 
                                   <div class="row">
-                                        <div class="col-md-3">
+                                        <div class="col-md-3 col-lg-3">
                                             <div class="etiqueta-formulario">
                                                 <span>Email</span>
                                             </div>
@@ -85,7 +72,7 @@
                                   </div>
 
                                   <div class="row">
-                                        <div class="col-md-3">
+                                        <div class="col-md-3 col-lg-3">
                                             <div class="etiqueta-formulario">
                                                 <span>Repetir-Email</span>
                                             </div>
@@ -96,7 +83,7 @@
                                   </div>
 
                                   <div class="row">
-                                        <div class="col-md-3">
+                                        <div class="col-md-3 col-lg-3">
                                             <div class="etiqueta-formulario">
                                                 <span>Teléfono</span>
                                             </div>
@@ -107,7 +94,7 @@
                                   </div>
 
                                   <div class="row">
-                                        <div class="col-md-3">
+                                        <div class="col-md-3 col-lg-3">
                                             <div class="etiqueta-formulario">
                                                 <span>Contraseña</span>
                                             </div>
@@ -119,12 +106,18 @@
                                   </div>
 
                                   <div class="row">
-                                        <div class="col-md-8">
+                                        <div class="col-md-3 col-lg-3">
+                                            <div class="etiqueta-formulario">
+                                              <span>Documento</span>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="col-md-9">
                                             <div class="seccion-documento">
-                                                <label for="Documento" id="documento-title">Documento</label>
+                                                
                                                 <select id="documento" name="doc">
                                                   <option value="">C.I</option>
-                                                  <option value="sex1">R.I.F</option>                                                  
+                                                  <option value="opc2">R.I.F</option>                                                  
                                                 </select>
 
                                                 <select id="documento2" name="doc2">
