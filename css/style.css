@@ -82,7 +82,12 @@ figure{
 
 .menu-principal li{
     display: inline-block;
+    overflow:hidden;
+    position: relative;
+    vertical-align: top;
 }
+
+.menu-principal > li:hover { overflow: initial; }
 
 .menu-principal li a{
     border: 2px solid transparent;
@@ -104,6 +109,52 @@ figure{
     color: #ffffff;
 }
 
+.menu-principal li > ul {
+    opacity:0;
+    position:absolute;
+    z-index:9;
+    margin:0;
+    padding:0;
+
+    margin-top: 0.6em;
+}
+
+.menu-principal li, .menu-principal li > ul {
+    transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -webkit-transition: all .15s ease-in-out;
+}
+
+.menu-principal li:hover > ul {
+    opacity:1;
+    background-color: #d4456b;
+    padding: 0.5em 0.5em;
+    width: 26.5em;
+}
+
+.menu-principal li>ul li a{
+    color: #ffffff;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.menu-principal li> ul li a:hover{
+    color: #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid transparent;
+}
+
+#ultimas-opciones{
+    float: right;
+}
+
+
+
+
+
+
+
+/****************************************/
 #home-icon, #home-icon:hover{
     border: 2px solid transparent;
 }
@@ -392,16 +443,18 @@ figure{
     top: 0;
 }
 
-.controles-index span, .controles-recomendados span{
+.controles-index span , .controles-recomendados span{
     background: #d72966;
     border: 2px solid #e7727e;
     color: #ffffff;
     display: inline-block;
     text-align: center;
-    padding: 0.6em;
     width: 3em;
     height: 2.5em;
+    
+    padding: 0.5em;
 }
+
 
 .controles-index a span:hover, .controles-recomendados a span:hover{
     background-color: #e50f5f;
@@ -786,6 +839,10 @@ footer{
     height: 10em;
 }
 
+#boton-comprar, #agregar-al-carrito{
+    background: #d72966;
+}
+
 .datos-articulo-carrito span{
     display: block;
     font-family: 'Roboto-Condensed',sans-serif;
@@ -797,37 +854,31 @@ footer{
     font-size: 1.1em;
 }
 
-.stock-quantity-inputs{
-    margin-top: 0.3em;
+.number-spinner{
+    margin-left: 2em;
 }
 
-.stock-quantity-inputs input[type='button']{
-    background-color: #F4F4F4;
-    border: 0.1em solid #e7e7e7;
-    border-radius: 0.2em;
-    cursor: pointer;
-    width: 0.6em;
-    font-size: 1em;
+.number-spinner span{
+    display: inline-block;
 }
 
-.stock-quantity-increments{
-    padding: 0em 1em 0.2em 0.5em !important;
+.input-group-btn.data-dwn button{
+    margin-left: -5.3em;
 }
 
-.stock-quantity-inputs input{
-    background-color: #eaeaea;
-    border: 0;
-    border-radius: 0;
-    box-shadow: none;
-    display: block;
-    float: left;
-    width: 2.5em;
-    height: 2em;
-    margin: 0;
-    padding: 1em 1em;
-    text-align: center; 
+#sumador-unidades{
+    width: 3em;
+    margin-left: 0.2em;
 }
 
+.sumador-carrito{
+    margin-left: 11em;
+}
+
+.btn-info{
+    background-color: #bebebe !important;
+    border-color: #bebebe;
+}
 
 /************ MODAL - DATOS DE PAGO **********/
 
@@ -1274,6 +1325,7 @@ footer{
     background-color: #d72966;
     display: block;
     font-weight: bold;
+    font-size: 1.3em;
     padding: 0.5em;
     width: auto;
 }
@@ -1320,3 +1372,25 @@ footer{
 .botones-confirmar-compra button:hover{
     background-color: #179d82;
 }
+
+#sumador-modal-producto{
+    width: 3em;
+    height: 2.3em;
+    margin-left: 0.2em;
+}
+
+.ke-ase span{
+    font-size: 1em;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+

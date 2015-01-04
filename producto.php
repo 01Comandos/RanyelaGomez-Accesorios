@@ -40,7 +40,7 @@
                                 <div class="col-md-1 col-lg-1" id="malditas-columnas-caga-anchos">
                                     <ol class="carousel-indicators" id="indicators-productos">
                                         <li data-target="#slide-detalles-producto" data-slide-to ="0" class="active">
-                                            <img src="img/producto1.jpg">
+                                            <img src="img/producto1.jpg" >
                                         </li>                                                                     
                                         
                                         <li data-target="#slide-detalles-producto" data-slide-to ="1">
@@ -89,16 +89,22 @@
                               <span><strong>Modelo:</strong> Pulsera Mod-01</span>
                               <span ><strong>Precio:</strong><strong id="precio-carrito"> Bs.300</strong></span>
                               <span>Cantidad: </span>
-                              <div class="stock-quantity-inputs" data-component="quantitySelector">
-                                    <input type="button" class="stock-quantity-increments" name="pop" value="-" disabled="">
-                                    <input type="number" id="productStockQuantity" class="stock-quantity-input" data-validate="number" name="quantity" min="1" max="9999" title="Cantidad de Unidades" value="1">
-                                    <input type="button" class="stock-quantity-increments" name="push" value="+">
-                              </div>                          
+                                    <!-- SUMADOR -->
+                                <div class="input-group number-spinner">
+                                    <span class="input-group-btn data-dwn">
+                                        <button class="btn btn-default btn-info" data-dir="dwn"><span class="glyphicon glyphicon-minus"></span></button>
+                                    </span>
+                                    <input type="text" class="form-control text-center" value="1" min="1" max="40" id="sumador-unidades">
+                                    <span class="input-group-btn data-up">
+                                        <button class="btn btn-default btn-info" data-dir="up"><span class="glyphicon glyphicon-plus"></span></button>
+                                    </span>
+                                </div>  
+                                <!-- FIN SUMADOR -->                        
                             </div> 
 
                             <div class="botones-producto-detalles">
-                                    <button class="btn btn-primary"><img src="img/agregar-al-carrito-icon.png" id="icon-agregar-carrito">Agregar al carrito</button>
-                                    <button class="btn btn-primary" data-toggle="modal" data-target=".modal-comprar">Comprar</button>
+                                    <button class="btn btn-primary" id="agregar-al-carrito"><img src="img/agregar-al-carrito-icon.png" id="icon-agregar-carrito">Agregar al carrito</button>
+                                    <button class="btn btn-primary" data-toggle="modal" data-target=".modal-comprar" id="boton-comprar">Comprar</button>
                                     
                                     <!--
                                       MODAL: COMPRAR - TIPO DE PAGO 
@@ -126,11 +132,17 @@
                                                   <div class="col-md-7">
                                                     <div class="cantidad-ventana-comprar">
                                                         <span>Cantidad:</span>
-                                                        <div class="stock-quantity-inputs" data-component="quantitySelector" id="contador-ventana-comprar">
-                                                            <input type="button" class="stock-quantity-increments" name="pop" value="-" disabled="">
-                                                            <input type="number" id="productStockQuantity" class="stock-quantity-input" data-validate="number" name="quantity" min="1" max="9999" title="Cantidad de Unidades" value="1">
-                                                            <input type="button" class="stock-quantity-increments" name="push" value="+">
-                                                       </div>
+                                                        <!-- SUMADOR -->
+                                                        <div class="input-group number-spinner">
+                                                            <span class="input-group-btn data-dwn">
+                                                                <button class="btn btn-default btn-info ke-ase" data-dir="dwn"><span class="glyphicon glyphicon-minus"></span></button>
+                                                            </span>
+                                                            <input type="text" class="form-control text-center" value="1" min="1" max="40" id="sumador-modal-producto">
+                                                            <span class="input-group-btn data-up">
+                                                                <button class="btn btn-default btn-info ke-ase" data-dir="up"><span class="glyphicon glyphicon-plus"></span></button>
+                                                            </span>
+                                                        </div>  
+                                                        <!-- FIN SUMADOR -->  
                                                     </div>
 
                                                     <div class="email-ventana-comprar">
@@ -180,7 +192,7 @@
         </div>
     </section>
 
-    <section class="productos-recomendados">
+    <section class="productos-recomendados hidden-xs">
         <div class="container">
             <div class="row">
                 <!--
@@ -192,8 +204,8 @@
                     </div>
                     
                     <div class="controles-recomendados">
-                        <a href="#"><span class="glyphicon glyphicon-chevron-left control-left"></span></a>
-                        <a href="#"><span class="glyphicon glyphicon-chevron-right control-right"></span></a>
+                        <a href="#carousel-recomendados-producto" data-slide="prev"><span class="glyphicon glyphicon-chevron-left control-left"></span></a>
+                        <a href="#carousel-recomendados-producto" data-slide="next"><span class="glyphicon glyphicon-chevron-right control-right"></span></a>
                     </div>
                 </div>
             </div>
@@ -201,65 +213,140 @@
             <!--
                 GALERIA PRODUCTOS
             -->
-            <div class="row Productos-Recomendados text-center">
-                <!-- PRODUCTO 1 -->
-                <div class="col-md-3 col-lg-3 producto">
-                    <div class="empaquetado">
-                        <div class="etiqueta-nuevo">
-                            <span>NUEVO</span>
-                        </div>
-                        <a href="#"><figure><img src="img/producto1.jpg"></figure></a>
-                        <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
-                        <div class="prenda-stock">
-                            <span class="prenda">Pulsera Mod-01</span>
-                            <span class="stock-etiqueta">STOCK</span>
-                        </div>
-                        <span class="precio">Bs.300</span>
-                    </div>
-                </div>
+            <div class="carousel" data-ride="carousel" id="carousel-recomendados-producto">
+                <div class="carousel-inner text-center">
+                    <div class="item active">
+                        <div class="container listado-productos">
+                            <div class="row">
+                                <!-- PRODUCTO 1 -->
+                                <div class="col-sm-6 col-md-3 col-lg-3 producto">
+                                    <div class="empaquetado">
+                                        <div class="etiqueta-nuevo">
+                                            <span>NUEVO</span>
+                                        </div>
+                                        <a href="#"><figure><img src="img/producto1.jpg"></figure></a>
+                                        <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
+                                        <div class="prenda-stock">
+                                            <span class="prenda">Pulsera Mod-01</span>
+                                            <span class="stock-etiqueta">STOCK</span>
+                                        </div>
+                                        <span class="precio">Bs.300</span>
+                                    </div>
+                                </div>
 
-                <!-- PRODUCTO 2 -->
-                <div class="col-md-3 col-lg-3 producto">
-                    <div class="empaquetado">
-                        <a href="#"><figure><img src="img/producto2.jpg" alt=""></figure></a>
-                        <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
-                        <div class="prenda-stock">
-                            <span class="prenda">Pulsera Mod-02</span>
-                            <span class="stock-etiqueta">STOCK</span>
-                        </div>
-                        <span class="precio">Bs.450</span>
-                    </div>
-                </div>
+                                <!-- PRODUCTO 2 -->
+                                <div class="col-sm-6 col-md-3 col-lg-3 producto">
+                                    <div class="empaquetado">
+                                        <a href="#"><figure><img src="img/producto2.jpg" alt=""></figure></a>
+                                        <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
+                                        <div class="prenda-stock">
+                                            <span class="prenda">Pulsera Mod-02</span>
+                                            <span class="stock-etiqueta">STOCK</span>
+                                        </div>
+                                        <span class="precio">Bs.450</span>
+                                    </div>
+                                </div>
 
-                <!-- PRODUCTO 3 -->
-                <div class="col-md-3 col-lg-3 producto">
-                    <div class="empaquetado">
-                        <div class="etiqueta-nuevo">
-                            <span>NUEVO</span>
-                        </div>
-                        <a href="#"><figure><img src="img/producto3.jpg" alt=""></figure></a>
-                        <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
-                        <div class="prenda-stock">
-                            <span class="prenda">Gargantilla Mod-01</span>
-                            <span class="stock-etiqueta">STOCK</span>
-                        </div>
-                        <span class="precio">Bs.600</span>
-                    </div>
-                </div>
+                                <!-- PRODUCTO 3 -->
+                                <div class="col-sm-6 col-md-3 col-lg-3 producto">
+                                    <div class="empaquetado">
+                                        <div class="etiqueta-nuevo">
+                                            <span>NUEVO</span>
+                                        </div>
+                                        <a href="#"><figure><img src="img/producto3.jpg" alt=""></figure></a>
+                                        <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
+                                        <div class="prenda-stock">
+                                            <span class="prenda">Gargantilla Mod-01</span>
+                                            <span class="stock-etiqueta">STOCK</span>
+                                        </div>
+                                        <span class="precio">Bs.600</span>
+                                    </div>
+                                </div>
 
-                <!-- PRODUCTO 4 -->
-                <div class="col-md-3 col-lg-3 producto">
-                    <div class="empaquetado">
-                        <a href="#"><figure><img src="img/producto4.jpg" alt=""></figure></a>
-                        <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
-                        <div class="prenda-stock">
-                            <span class="prenda">Gargantilla Mod-02</span>
-                            <span class="stock-etiqueta">STOCK</span>
+                                <!-- PRODUCTO 4 -->
+                                <div class="col-sm-6 col-md-3 col-lg-3 producto">
+                                    <div class="empaquetado">
+                                        <a href="#"><figure><img src="img/producto4.jpg" alt=""></figure></a>
+                                        <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
+                                        <div class="prenda-stock">
+                                            <span class="prenda">Gargantilla Mod-02</span>
+                                            <span class="stock-etiqueta">STOCK</span>
+                                        </div>
+                                        <span class="precio">Bs.530</span>
+                                    </div>
+                                </div>
+                            </div>                            
                         </div>
-                        <span class="precio">Bs.530</span>
+                    </div>
+
+                    <div class="item">
+                        <div class="container listado-productos">
+                            <div class="row">
+                                <!-- PRODUCTO 5 -->
+                                <div class="col-sm-6 col-md-3 col-lg-3 producto">
+                                    <div class="empaquetado">
+                                        <div class="etiqueta-nuevo">
+                                            <span>NUEVO</span>
+                                        </div>
+                                        <a href="#"><figure><img src="img/producto4.jpg"></figure></a>
+                                        <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
+                                        <div class="prenda-stock">
+                                            <span class="prenda">Pulsera Mod-01</span>
+                                            <span class="stock-etiqueta">STOCK</span>
+                                        </div>
+                                        <span class="precio">Bs.300</span>
+                                    </div>
+                                </div>
+
+                                <!-- PRODUCTO 6 -->
+                                <div class="col-sm-6 col-md-3 col-lg-3 producto">
+                                    <div class="empaquetado">
+                                        <a href="#"><figure><img src="img/producto5.jpg" alt=""></figure></a>
+                                        <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
+                                        <div class="prenda-stock">
+                                            <span class="prenda">Pulsera Mod-02</span>
+                                            <span class="stock-etiqueta">STOCK</span>
+                                        </div>
+                                        <span class="precio">Bs.450</span>
+                                    </div>
+                                </div>
+
+                                <!-- PRODUCTO 7 -->
+                                <div class="col-sm-6 col-md-3 col-lg-3 producto">
+                                    <div class="empaquetado">
+                                        <div class="etiqueta-nuevo">
+                                            <span>NUEVO</span>
+                                        </div>
+                                        <a href="#"><figure><img src="img/producto8.jpg" alt=""></figure></a>
+                                        <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
+                                        <div class="prenda-stock">
+                                            <span class="prenda">Gargantilla Mod-01</span>
+                                            <span class="stock-etiqueta">STOCK</span>
+                                        </div>
+                                        <span class="precio">Bs.600</span>
+                                    </div>
+                                </div>
+
+                                <!-- PRODUCTO 8 -->
+                                <div class="col-sm-6 col-md-3 col-lg-3 producto">
+                                    <div class="empaquetado">
+                                        <a href="#"><figure><img src="img/producto7.jpg" alt=""></figure></a>
+                                        <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
+                                        <div class="prenda-stock">
+                                            <span class="prenda">Gargantilla Mod-02</span>
+                                            <span class="stock-etiqueta">STOCK</span>
+                                        </div>
+                                        <span class="precio">Bs.530</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                        </div>
                     </div>
                 </div>
             </div>
+                
         </div>
     </section>      
   
@@ -267,5 +354,6 @@
   </body>
   <?php include 'inc/footer.php'; ?>
   <?php include 'inc/footer_common.php'; ?>
+  <script src="js/sumador.js"></script>
   
 </html>

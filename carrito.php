@@ -216,11 +216,19 @@
                           <span><strong>Modelo:</strong> Pulsera Mod-01</span>
                           <span ><strong>Precio:</strong><strong id="precio-carrito"> Bs.300</strong></span>
                           <span>Cantidad: </span>
-                          <div class="stock-quantity-inputs" data-component="quantitySelector">
-                                <input type="button" class="stock-quantity-increments" name="pop" value="-" disabled="">
-                                <input type="number" id="productStockQuantity" class="stock-quantity-input" data-validate="number" name="quantity" min="1" max="9999" title="Cantidad de Unidades" value="1">
-                                <input type="button" class="stock-quantity-increments" name="push" value="+">
-                            </div>                          
+                          <!-- SUMADOR -->
+                            <div class="sumador-carrito">
+                            <div class="input-group number-spinner">
+                              <span class="input-group-btn data-dwn">
+                                  <button class="btn btn-default btn-info" data-dir="dwn"><span class="glyphicon glyphicon-minus"></span></button>
+                              </span>
+                              <input type="text" class="form-control text-center" value="1" min="1" max="40" id="sumador-unidades">
+                              <span class="input-group-btn data-up">
+                                  <button class="btn btn-default btn-info" data-dir="up"><span class="glyphicon glyphicon-plus"></span></button>
+                              </span>
+                            </div>
+                          </div>    
+                            <!-- FIN SUMADOR -->                           
                         </div> 
                     </div>                  
                 </div>
@@ -243,11 +251,19 @@
                           <span><strong>Modelo:</strong> Pulsera Mod-02</span>
                           <span ><strong>Precio:</strong><strong id="precio-carrito"> Bs.300</strong></span>
                           <span>Cantidad: </span>
-                          <div class="stock-quantity-inputs" data-component="quantitySelector">
-                                <input type="button" class="stock-quantity-increments" name="pop" value="-" disabled="">
-                                <input type="number" id="productStockQuantity" class="stock-quantity-input" data-validate="number" name="quantity" min="1" max="9999" title="Cantidad de Unidades" value="1">
-                                <input type="button" class="stock-quantity-increments" name="push" value="+">
+                          <!-- SUMADOR -->
+                          <div class="sumador-carrito">
+                            <div class="input-group number-spinner">
+                              <span class="input-group-btn data-dwn">
+                                  <button class="btn btn-default btn-info" data-dir="dwn"><span class="glyphicon glyphicon-minus"></span></button>
+                              </span>
+                              <input type="text" class="form-control text-center" value="1" min="1" max="40" id="sumador-unidades">
+                              <span class="input-group-btn data-up">
+                                  <button class="btn btn-default btn-info" data-dir="up"><span class="glyphicon glyphicon-plus"></span></button>
+                              </span>
                             </div>
+                          </div>   
+                          <!-- FIN SUMADOR -->  
                         </div> 
                     </div>                  
                 </div>              
@@ -270,11 +286,19 @@
                           <span><strong>Modelo:</strong> Gargantilla Mod-01</span>
                           <span><strong>Precio:</strong><strong id="precio-carrito"> Bs.600</strong></span>
                           <span>Cantidad: </span>
-                          <div class="stock-quantity-inputs" data-component="quantitySelector">
-                                <input type="button" class="stock-quantity-increments" name="pop" value="-" disabled="">
-                                <input type="number" id="productStockQuantity" class="stock-quantity-input" data-validate="number" name="quantity" min="1" max="9999" title="Cantidad de Unidades" value="1">
-                                <input type="button" class="stock-quantity-increments" name="push" value="+">
+                          <!-- SUMADOR -->
+                          <div class="sumador-carrito">
+                            <div class="input-group number-spinner">
+                              <span class="input-group-btn data-dwn">
+                                  <button class="btn btn-default btn-info" data-dir="dwn"><span class="glyphicon glyphicon-minus"></span></button>
+                              </span>
+                              <input type="text" class="form-control text-center" value="1" min="1" max="40" id="sumador-unidades">
+                              <span class="input-group-btn data-up">
+                                  <button class="btn btn-default btn-info" data-dir="up"><span class="glyphicon glyphicon-plus"></span></button>
+                              </span>
                             </div>
+                          </div>   
+                          <!-- FIN SUMADOR -->  
                         </div> 
                     </div>                  
                 </div>
@@ -294,11 +318,19 @@
                           <span><strong>Modelo:</strong> Gargantilla Mod-02</span>
                           <span><strong>Precio:</strong><strong id="precio-carrito"> Bs.530</strong></span>
                           <span>Cantidad: </span>
-                          <div class="stock-quantity-inputs" data-component="quantitySelector">
-                                <input type="button" class="stock-quantity-increments" name="pop" value="-" disabled="">
-                                <input type="number" id="productStockQuantity" class="stock-quantity-input" data-validate="number" name="quantity" min="1" max="9999" title="Cantidad de Unidades" value="1">
-                                <input type="button" class="stock-quantity-increments" name="push" value="+">
+                          <!-- SUMADOR -->
+                          <div class="sumador-carrito">
+                            <div class="input-group number-spinner">
+                              <span class="input-group-btn data-dwn">
+                                  <button class="btn btn-default btn-info" data-dir="dwn"><span class="glyphicon glyphicon-minus"></span></button>
+                              </span>
+                              <input type="text" class="form-control text-center" value="1" min="1" max="40" id="sumador-unidades">
+                              <span class="input-group-btn data-up">
+                                  <button class="btn btn-default btn-info" data-dir="up"><span class="glyphicon glyphicon-plus"></span></button>
+                              </span>
                             </div>
+                          </div>   
+                          <!-- FIN SUMADOR -->  
                         </div> 
                     </div>                  
                 </div>
@@ -320,11 +352,19 @@
                           <span><strong>Modelo:</strong> Pulsera Mod-03</span>
                           <span><strong>Precio:</strong><strong id="precio-carrito"> Bs.550</strong></span>
                           <span>Cantidad: </span>
-                          <div class="stock-quantity-inputs" data-component="quantitySelector">
-                                <input type="button" class="stock-quantity-increments" name="pop" value="-" disabled="">
-                                <input type="number" id="productStockQuantity" class="stock-quantity-input" data-validate="number" name="quantity" min="1" max="9999" title="Cantidad de Unidades" value="1">
-                                <input type="button" class="stock-quantity-increments" name="push" value="+">
+                          <!-- SUMADOR -->
+                          <div class="sumador-carrito">
+                            <div class="input-group number-spinner">
+                              <span class="input-group-btn data-dwn">
+                                  <button class="btn btn-default btn-info" data-dir="dwn"><span class="glyphicon glyphicon-minus"></span></button>
+                              </span>
+                              <input type="text" class="form-control text-center" value="1" min="1" max="40" id="sumador-unidades">
+                              <span class="input-group-btn data-up">
+                                  <button class="btn btn-default btn-info" data-dir="up"><span class="glyphicon glyphicon-plus"></span></button>
+                              </span>
                             </div>
+                          </div>  
+                          <!-- FIN SUMADOR -->  
                         </div> 
                     </div>                  
                 </div>
@@ -344,11 +384,19 @@
                           <span><strong>Modelo:</strong> Pulsera Mod-04</span>
                           <span><strong>Precio:</strong><strong id="precio-carrito"> Bs.300</strong></span>
                           <span>Cantidad: </span>
-                          <div class="stock-quantity-inputs" data-component="quantitySelector">
-                                <input type="button" class="stock-quantity-increments" name="pop" value="-" disabled="">
-                                <input type="number" id="productStockQuantity" class="stock-quantity-input" data-validate="number" name="quantity" min="1" max="9999" title="Cantidad de Unidades" value="1">
-                                <input type="button" class="stock-quantity-increments" name="push" value="+">
+                          <!-- SUMADOR -->
+                          <div class="sumador-carrito">
+                            <div class="input-group number-spinner">
+                              <span class="input-group-btn data-dwn">
+                                  <button class="btn btn-default btn-info" data-dir="dwn"><span class="glyphicon glyphicon-minus"></span></button>
+                              </span>
+                              <input type="text" class="form-control text-center" value="1" min="1" max="40" id="sumador-unidades">
+                              <span class="input-group-btn data-up">
+                                  <button class="btn btn-default btn-info" data-dir="up"><span class="glyphicon glyphicon-plus"></span></button>
+                              </span>
                             </div>
+                          </div>  
+                          <!-- FIN SUMADOR -->  
                         </div> 
                     </div>                  
                 </div>

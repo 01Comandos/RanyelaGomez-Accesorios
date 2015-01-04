@@ -8,6 +8,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -109,12 +110,10 @@
                                         <div class="col-md-3 col-lg-3">
                                             <div class="etiqueta-formulario">
                                               <span>Documento</span>
-                                            </div>
-                                            
+                                            </div>                                            
                                         </div>
                                         <div class="col-md-9">
-                                            <div class="seccion-documento">
-                                                
+                                            <div class="seccion-documento">                                                
                                                 <select id="documento" name="doc">
                                                   <option value="">C.I</option>
                                                   <option value="opc2">R.I.F</option>                                                  
