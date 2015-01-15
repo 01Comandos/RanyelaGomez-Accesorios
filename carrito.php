@@ -201,7 +201,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 div-articulo">
                     <div class="articulo-carrito">
                         <figure>
                             <a href="#">
@@ -209,7 +209,7 @@
                             </a>
                         </figure>
                         <div class="borrar-articulo-carrito">
-                            <a href="#"><span class="glyphicon glyphicon-remove"></span></a>
+                            <a href="javascript:void(0)"><span class="glyphicon glyphicon-remove"></span></a>
                         </div>
                         <div class="datos-articulo-carrito">
                           <span><strong>Temporada:</strong> Julio-Agosto</span>
@@ -233,7 +233,7 @@
                     </div>                  
                 </div>
 
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 div-articulo">
                     <div class="articulo-carrito">
                         <figure>
                             <a href="#">
@@ -241,7 +241,7 @@
                             </a>
                         </figure>
                         <div class="borrar-articulo-carrito">
-                            <a href="#"><span class="glyphicon glyphicon-remove"></span></a>
+                            <a href="javascript:void(0)"><span class="glyphicon glyphicon-remove"></span></a>
                         </div>
                         <div class="borrar-articulo-carrito">
                             <a href="#"><span class="glyphicon glyphicon-remove"></span></a>
@@ -271,7 +271,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 div-articulo">
                     <div class="articulo-carrito">
                         <figure>
                             <a href="#">
@@ -279,7 +279,7 @@
                             </a>
                         </figure>
                         <div class="borrar-articulo-carrito">
-                            <a href="#"><span class="glyphicon glyphicon-remove"></span></a>
+                            <a href="javascript:void(0)"><span class="glyphicon glyphicon-remove"></span></a>
                         </div>
                         <div class="datos-articulo-carrito">
                           <span><strong>Temporada:</strong> Septiembre-Octubre</span>
@@ -303,7 +303,7 @@
                     </div>                  
                 </div>
 
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 div-articulo">
                     <div class="articulo-carrito">
                         <figure>
                             <a href="#">
@@ -311,7 +311,7 @@
                             </a>
                         </figure>
                         <div class="borrar-articulo-carrito">
-                            <a href="#"><span class="glyphicon glyphicon-remove"></span></a>
+                            <a href="javascript:void(0)"><span class="glyphicon glyphicon-remove"></span></a>
                         </div>
                         <div class="datos-articulo-carrito">
                           <span><strong>Temporada:</strong> Septiembre-Octubre</span>
@@ -337,7 +337,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 div-articulo">
                     <div class="articulo-carrito">
                         <figure>
                             <a href="#">
@@ -345,7 +345,7 @@
                             </a>
                         </figure>
                         <div class="borrar-articulo-carrito">
-                            <a href="#"><span class="glyphicon glyphicon-remove"></span></a>
+                            <a href="javascript:void(0)"><span class="glyphicon glyphicon-remove"></span></a>
                         </div>
                         <div class="datos-articulo-carrito">
                           <span><strong>Temporada:</strong> Julio-Agosto</span>
@@ -369,7 +369,7 @@
                     </div>                  
                 </div>
 
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 div-articulo">
                     <div class="articulo-carrito">
                         <figure>
                             <a href="#">
@@ -377,7 +377,7 @@
                             </a>
                         </figure>
                         <div class="borrar-articulo-carrito">
-                            <a href="#"><span class="glyphicon glyphicon-remove"></span></a>
+                            <a href="javascript:void(0)"><span class="glyphicon glyphicon-remove"></span></a>
                         </div>
                         <div class="datos-articulo-carrito">
                           <span><strong>Temporada:</strong> Julio-Agosto</span>

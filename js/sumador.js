@@ -35,3 +35,9 @@ $(document).ready(function() {
 
 /* ********************************************
 **********BORRAR ARTICULO DEL CARRITO*********/
+$(document).ready(function(){
+    $('.borrar-articulo-carrito').click(function(){
+        $(this).parents('.div-articulo').remove();
+        return false;
+    });
+});

@@ -763,6 +763,7 @@ footer{
 
 .cuerpo-carrito{
     background: #eeeeee;
+    min-height: 33em;
 }
 
 .botones-principales-carrito{
