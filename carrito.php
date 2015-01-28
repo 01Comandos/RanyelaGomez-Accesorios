@@ -31,7 +31,7 @@
     <section class="cuerpo-carrito">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                     <button class="btn btn-primary botones-principales-carrito" id="mercadopago-carrito">Pagar con MercadoPago</button>
                     <button class="btn btn-primary botones-principales-carrito" data-toggle="modal" data-target=".modal-datos-de-pago">Datos de Pago</button>
                     <!--
@@ -53,30 +53,30 @@
                                 <div class="formulario-DatosDePago">
                                         <form action="inc/procesaformulario-DatosDePago.php" method="POST" id="formulario-DatosDePago">      
                                             <div class="row">
-                                                  <div class="col-md-4 text-center">
+                                                  <div class="col-xs-4 col-sm-4 col-md-4 text-center">
                                                       <div class="etiqueta-formulario">
                                                           <span>Email</span>
                                                       </div>
                                                   </div>
-                                                  <div class="col-md-8 pull-left">
+                                                  <div class="col-xs-8 col-sm-8 col-md-8 pull-left">
                                                       <input type="email" name="email"  required="required" id="email-DatosDePago">
                                                   </div>
                                             </div>
 
                                             <div class="row">
-                                                  <div class="col-md-4">
+                                                  <div class="col-xs-4 col-sm-4 col-md-4">
                                                       <div class="etiqueta-formulario">
                                                           <span>Contraseña</span>
                                                       </div>
                                                   </div>
-                                                  <div class="col-md-8 contrasena-DatosDePago">
+                                                  <div class="col-xs-8 col-sm-8 col-md-8 contrasena-DatosDePago">
                                                       <input type="password" name="password" required="required" id="password-DatosDePago" >
                                                       <a href="#">Olvidé mi Contraseña</a>
                                                   </div>
                                             </div>                                                 
 
                                             <div class="row">
-                                                <div class="col-md-12">
+                                                <div class="col-sm-12 col-md-12">
                                                     <div class="btn-DatosDePago">
                                                         <input type="submit" value="Confirmar" id="boton-DatosDePago" onclick="enviar-DatosDePago">
                                                     </div>
@@ -90,7 +90,7 @@
                         <!-- FIN COMPONENTE MODAL -->
 
 
-                    <button class="btn btn-primary botones-principales-carrito" data-toggle="modal" data-target=".modal-formalizar-pago">Formalizar Pago</button>
+                    <button class="btn btn-primary botones-principales-carrito" id="btn-xs-400" data-toggle="modal" data-target=".modal-formalizar-pago">Formalizar Pago</button>
 
                     <!--
                           MODAL 2: FORMALIZAR PAGOS 
@@ -111,45 +111,45 @@
                                 <div class="formulario-FormalizarPago">
                                         <form action="inc/procesaformulario-FormalizarPago.php" method="POST" id="formulario-FormalizarPago">      
                                             <div class="row">
-                                                  <div class="col-md-4 text-center">
+                                                  <div class="col-xs-4 col-sm-4 col-md-4 text-center">
                                                       <div class="etiqueta-formulario">
                                                           <span>Entidad Bancaria</span>
                                                       </div>
                                                   </div>
-                                                  <div class="col-md-8">
+                                                  <div class="col-xs-8 col-sm-8 col-md-8">
                                                       <input type="text" name="name-bank"  required="required" id="nombre-banco">
                                                   </div>
                                             </div>
 
                                             <div class="row">
-                                                  <div class="col-md-4">
+                                                  <div class="col-xs-4 col-sm-4 col-md-4">
                                                       <div class="etiqueta-formulario">
                                                           <span>Monto</span>
                                                       </div>
                                                   </div>
-                                                  <div class="col-md-8">
+                                                  <div class="col-xs-8 col-sm-8 col-md-8">
                                                       <input type="text" name="monto-pago" required="required" id="monto-pago" >
                                                   </div>
                                             </div>
 
                                             <div class="row">
-                                                  <div class="col-md-4">
+                                                  <div class="col-xs-4 col-sm-4 col-md-4">
                                                       <div class="etiqueta-formulario">
                                                           <span>Serial de Operación</span>
                                                       </div>
                                                   </div>
-                                                  <div class="col-md-8">
+                                                  <div class="col-xs-8 col-sm-8 col-md-8">
                                                       <input type="text" name="serial" required="required" id="serial-pago" >
                                                   </div>
                                             </div>
 
                                             <div class="row">
-                                                  <div class="col-md-4">
+                                                  <div class="col-xs-4 col-sm-4 col-md-4">
                                                       <div class="etiqueta-formulario">
                                                           <span>Fecha</span>
                                                       </div>
                                                   </div>
-                                                  <div class="col-md-8">                                                      
+                                                  <div class="col-xs-8 col-sm-8 col-md-8">                                                      
                                                         <div class="form-group">
                                                             <div class='input-group date' id='calendario-ConfirmarPago'>
                                                                 <input type='text' class="form-control" id="calendario" />
@@ -167,18 +167,18 @@
                                             </div>
 
                                             <div class="row direccion-envio">
-                                                  <div class="col-md-4">
+                                                  <div class="col-xs-4 col-sm-4 col-md-4">
                                                       <div class="etiqueta-formulario">
                                                           <span>Dirección de Envío</span>
                                                       </div>
                                                   </div>
-                                                  <div class="col-md-8">
+                                                  <div class="col-xs-8 col-sm-8 col-md-8">
                                                       <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" required="required" id="direccion-envio"></textarea>
                                                   </div>
                                             </div>                                                   
 
                                             <div class="row">
-                                                <div class="col-md-12">
+                                                <div class="col-sm-12 col-md-12">
                                                     <div class="btn-FormalizarPago">
                                                         <input type="submit" value="Confirmar" id="boton-FormalizarPago" onclick="enviar-FormalizarPago">
                                                     </div>
@@ -202,7 +202,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 div-articulo">
-                    <div class="articulo-carrito">
+                    <div class="articulo-carrito primero">
                         <figure>
                             <a href="#">
                                 <img src="img/producto1.jpg" alt="">

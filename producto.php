@@ -33,7 +33,7 @@
                 <!--
                     IMAGENES PRINCIPALES
                 -->
-                <div class="col-md-5 col-lg-5">
+                <div class="col-sm-5 col-md-5 col-lg-5">
                     <article id="slide-detalles-producto" class="carousel slide">
                         <div class="container">
                             <div class="row">
@@ -82,13 +82,14 @@
                 <!--
                     Detalles de la información
                 -->
-                <div class="col-md-7 col-lg-7">
+                <div class="col-sm-7 col-md-7 col-lg-7">
                     <div class=" datos-generales-producto" id="descripcion">
                             <div class="datos-articulo-carrito" >
                               <span><strong>Temporada:</strong> Julio-Agosto</span>
                               <span><strong>Modelo:</strong> Pulsera Mod-01</span>
                               <span ><strong>Precio:</strong><strong id="precio-carrito"> Bs.300</strong></span>
                               <span>Cantidad: </span>
+
                                     <!-- SUMADOR -->
                                 <div class="input-group number-spinner">
                                     <span class="input-group-btn data-dwn">
@@ -129,17 +130,17 @@
                                                           <span id="precio-comprar-modal">Bs.F. 1350</span>
                                                       </div>
                                                   </div>
-                                                  <div class="col-md-7">
+                                                  <div class="col-sm-7 col-md-7">
                                                     <div class="cantidad-ventana-comprar">
                                                         <span>Cantidad:</span>
                                                         <!-- SUMADOR -->
                                                         <div class="input-group number-spinner">
                                                             <span class="input-group-btn data-dwn">
-                                                                <button class="btn btn-default btn-info ke-ase" data-dir="dwn"><span class="glyphicon glyphicon-minus"></span></button>
+                                                                <button class="btn btn-default btn-info ke-ase-dwn" data-dir="dwn"><span class="glyphicon glyphicon-minus"></span></button>
                                                             </span>
                                                             <input type="text" class="form-control text-center" value="1" min="1" max="40" id="sumador-modal-producto">
                                                             <span class="input-group-btn data-up">
-                                                                <button class="btn btn-default btn-info ke-ase" data-dir="up"><span class="glyphicon glyphicon-plus"></span></button>
+                                                                <button class="btn btn-default btn-info ke-ase-up" data-dir="up"><span class="glyphicon glyphicon-plus"></span></button>
                                                             </span>
                                                         </div>  
                                                         <!-- FIN SUMADOR -->  
@@ -219,7 +220,7 @@
                         <div class="container listado-productos">
                             <div class="row">
                                 <!-- PRODUCTO 1 -->
-                                <div class="col-sm-6 col-md-3 col-lg-3 producto">
+                                <div class="col-sm-3 col-md-3 col-lg-3 producto">
                                     <div class="empaquetado">
                                         <div class="etiqueta-nuevo">
                                             <span>NUEVO</span>
@@ -235,7 +236,7 @@
                                 </div>
 
                                 <!-- PRODUCTO 2 -->
-                                <div class="col-sm-6 col-md-3 col-lg-3 producto">
+                                <div class="col-sm-3 col-md-3 col-lg-3 producto">
                                     <div class="empaquetado">
                                         <a href="#"><figure><img src="img/producto2.jpg" alt=""></figure></a>
                                         <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
@@ -248,7 +249,7 @@
                                 </div>
 
                                 <!-- PRODUCTO 3 -->
-                                <div class="col-sm-6 col-md-3 col-lg-3 producto">
+                                <div class="col-sm-3 col-md-3 col-lg-3 producto">
                                     <div class="empaquetado">
                                         <div class="etiqueta-nuevo">
                                             <span>NUEVO</span>
@@ -264,7 +265,7 @@
                                 </div>
 
                                 <!-- PRODUCTO 4 -->
-                                <div class="col-sm-6 col-md-3 col-lg-3 producto">
+                                <div class="col-sm-3 col-md-3 col-lg-3 producto hidden-sm">
                                     <div class="empaquetado">
                                         <a href="#"><figure><img src="img/producto4.jpg" alt=""></figure></a>
                                         <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
@@ -283,7 +284,7 @@
                         <div class="container listado-productos">
                             <div class="row">
                                 <!-- PRODUCTO 5 -->
-                                <div class="col-sm-6 col-md-3 col-lg-3 producto">
+                                <div class="col-sm-3 col-md-3 col-lg-3 producto">
                                     <div class="empaquetado">
                                         <div class="etiqueta-nuevo">
                                             <span>NUEVO</span>
@@ -299,7 +300,7 @@
                                 </div>
 
                                 <!-- PRODUCTO 6 -->
-                                <div class="col-sm-6 col-md-3 col-lg-3 producto">
+                                <div class="col-sm-3 col-md-3 col-lg-3 producto">
                                     <div class="empaquetado">
                                         <a href="#"><figure><img src="img/producto5.jpg" alt=""></figure></a>
                                         <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
@@ -312,7 +313,7 @@
                                 </div>
 
                                 <!-- PRODUCTO 7 -->
-                                <div class="col-sm-6 col-md-3 col-lg-3 producto">
+                                <div class="col-sm-3 col-md-3 col-lg-3 producto">
                                     <div class="empaquetado">
                                         <div class="etiqueta-nuevo">
                                             <span>NUEVO</span>
@@ -328,7 +329,7 @@
                                 </div>
 
                                 <!-- PRODUCTO 8 -->
-                                <div class="col-sm-6 col-md-3 col-lg-3 producto">
+                                <div class="col-sm-3 col-md-3 col-lg-3 producto hidden-sm">
                                     <div class="empaquetado">
                                         <a href="#"><figure><img src="img/producto7.jpg" alt=""></figure></a>
                                         <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>

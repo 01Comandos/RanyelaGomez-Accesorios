@@ -25,14 +25,14 @@
                                 </div>
 
                                       <div class="row">
-                                            <div class="col-md-6 col-lg-6">                                                
+                                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 tw">                                                
                                                 <a href="#" class="twitter-registro">
                                                   <figure class="icono-registro-social"><img src="img/twitter-icon-producto.png"></figure>
                                                   <span><strong>Conéctate con Twitter</strong></span>
                                                 </a> 
                                             </div>
 
-                                            <div class="col-md-6 col-lg-6">
+                                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                                                 <a href="#" class="facebook-registro">
                                                   <figure class="icono-registro-social"><img src="img/facebook-icon-producto.png"></figure>
                                                   <span><strong>Conéctate con Facebook</strong></span>
@@ -41,7 +41,7 @@
                                       </div>                      
 
                                       <div class="row">
-                                          <div class="col-md-12">
+                                          <div class="col-xs-12 col-sm-12 col-md-12">
                                               <div class="inscripcion-tradicional">
                                                   <span>¿No tienes cuentas sociales?</span>
                                                   <a href="inscribete.php">
@@ -74,14 +74,14 @@
                                 </div>
 
                                 <div class="row">
-                                    <div class="col-md-6 col-lg-6">                                                
+                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 tw">                                                
                                         <a href="#" class="twitter-registro">
                                           <figure class="icono-registro-social"><img src="img/twitter-icon-producto.png"></figure>
                                           <span><strong>Ingresar con Twitter</strong></span>
                                         </a> 
                                     </div>
 
-                                    <div class="col-md-6 col-lg-6">
+                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                                         <a href="#" class="facebook-registro">
                                           <figure class="icono-registro-social"><img src="img/facebook-icon-producto.png"></figure>
                                           <span><strong>Ingresar con Facebook</strong></span>
@@ -96,23 +96,23 @@
                                             </div>
                                                  
                                             <div class="row">
-                                                  <div class="col-md-4 text-center">
+                                                  <div class="col-xs-4 col-sm-4 col-md-4 text-center">
                                                       <div class="etiqueta-formulario">
                                                           <span>Email</span>
                                                       </div>
                                                   </div>
-                                                  <div class="col-md-8">
+                                                  <div class="col-xs-8 col-sm-8 col-md-8">
                                                       <input type="email" name="email"  required="required" id="email-login">
                                                   </div>
                                             </div>
 
                                             <div class="row">
-                                                  <div class="col-md-4">
+                                                  <div class="col-xs-4 col-sm-4 col-md-4">
                                                       <div class="etiqueta-formulario">
                                                           <span>Contraseña</span>
                                                       </div>
                                                   </div>
-                                                  <div class="col-md-8 contrasena">
+                                                  <div class="col-xs-8 col-sm-8 col-md-8 contrasena">
                                                       <input type="password" name="password" required="required" id="password-login" >
                                                       <a href="#">Olvidé mi Contraseña</a>
                                                   </div>
@@ -161,8 +161,8 @@
                 MENU
             -->
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                  <nav>        
-                      <ul class="menu-principal pull-right">
+                  <nav class="nav-normal">     
+                      <ul class="menu-principal">
                           <li ><a href="index.php" id="home-icon"><span class="glyphicon glyphicon-home"></span></a></li>
                           <li class="opcion-principal"><a href="#">GARGANTILLAS</a>
                                <ul>
@@ -191,6 +191,63 @@
                           <li><a href="contacto.php">CONTACTO</a></li>
                       </ul>
                   </nav>
+
+                  
+                  <!--
+                    NAVEGACION PARA TELEFONOS
+                  -->
+                  <nav class="navbar navbar-default nav-phone" role="navigation">
+                  <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only"> Cambiar Navegación</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav menu-principal">
+                        <li ><a href="index.php" id="home-icon"><span class="glyphicon glyphicon-home"></span></a></li>
+
+                        <!-- MENU GARGANTILLAS -->
+                        <li class="dropdown opcion-principal"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">GARGANTILLAS</a>
+                          <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Julio - Agosto</a></li>
+                            <li id="ultimas-opciones"><a href="#">Noviembre - Diciembre</a></li>
+                            <li><a href="#">Septiembre - Octubre</a></li>                                
+                            <li id="ultimas-opciones"><a href="#">Enero - Febrero (2015)</a></li>
+                          </ul>
+                        </li>
+
+                        <!-- MENU PULSERAS -->
+                        <li class="dropdown opcion-principal"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">PULSERAS</a>
+                          <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Julio - Agosto</a></li>
+                            <li id="ultimas-opciones"><a href="#">Noviembre - Diciembre</a></li>
+                            <li><a href="#">Septiembre - Octubre</a></li>                                
+                            <li id="ultimas-opciones"><a href="#">Enero - Febrero (2015)</a></li>
+                          </ul>
+                        </li>
+
+                        <!-- MENU ZARCILLOS -->
+                        <li class="dropdown opcion-principal"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">ZARCILLOS</a>
+                          <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Julio - Agosto</a></li>
+                            <li id="ultimas-opciones"><a href="#">Noviembre - Diciembre</a></li>
+                            <li><a href="#">Septiembre - Octubre</a></li>                                
+                            <li id="ultimas-opciones"><a href="#">Enero - Febrero (2015)</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="contacto.php">CONTACTO</a></li>
+
+                      </ul>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container-fluid -->
+                </nav>
                 
             </div>
         </div>

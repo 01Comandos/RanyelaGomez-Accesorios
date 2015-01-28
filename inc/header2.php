@@ -47,8 +47,8 @@
                 MENU
             -->
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                  <nav>        
-                      <ul class="menu-principal pull-right">
+                  <nav class="nav-normal">     
+                      <ul class="menu-principal">
                           <li ><a href="index.php" id="home-icon"><span class="glyphicon glyphicon-home"></span></a></li>
                           <li class="opcion-principal"><a href="#">GARGANTILLAS</a>
                                <ul>
@@ -77,6 +77,63 @@
                           <li><a href="contacto.php">CONTACTO</a></li>
                       </ul>
                   </nav>
+
+                  
+                  <!--
+                    NAVEGACION PARA TELEFONOS
+                  -->
+                  <nav class="navbar navbar-default nav-phone" role="navigation">
+                  <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only"> Cambiar Navegación</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav menu-principal">
+                        <li ><a href="index.php" id="home-icon"><span class="glyphicon glyphicon-home"></span></a></li>
+
+                        <!-- MENU GARGANTILLAS -->
+                        <li class="dropdown opcion-principal"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">GARGANTILLAS</a>
+                          <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Julio - Agosto</a></li>
+                            <li id="ultimas-opciones"><a href="#">Noviembre - Diciembre</a></li>
+                            <li><a href="#">Septiembre - Octubre</a></li>                                
+                            <li id="ultimas-opciones"><a href="#">Enero - Febrero (2015)</a></li>
+                          </ul>
+                        </li>
+
+                        <!-- MENU PULSERAS -->
+                        <li class="dropdown opcion-principal"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">PULSERAS</a>
+                          <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Julio - Agosto</a></li>
+                            <li id="ultimas-opciones"><a href="#">Noviembre - Diciembre</a></li>
+                            <li><a href="#">Septiembre - Octubre</a></li>                                
+                            <li id="ultimas-opciones"><a href="#">Enero - Febrero (2015)</a></li>
+                          </ul>
+                        </li>
+
+                        <!-- MENU ZARCILLOS -->
+                        <li class="dropdown opcion-principal"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">ZARCILLOS</a>
+                          <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Julio - Agosto</a></li>
+                            <li id="ultimas-opciones"><a href="#">Noviembre - Diciembre</a></li>
+                            <li><a href="#">Septiembre - Octubre</a></li>                                
+                            <li id="ultimas-opciones"><a href="#">Enero - Febrero (2015)</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="contacto.php">CONTACTO</a></li>
+
+                      </ul>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container-fluid -->
+                </nav>
                 
             </div>
         </div>

@@ -45,7 +45,7 @@
             <form action="inc/contacto-formulario.php" method="POST" id="contacto-formulario">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-lg-6">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                             <div class="nombre-contacto">
                                 <figure><img src="img/icono-nombre-contacto.png" alt=""></figure>
                                 <input type="name" name="nombre" required="required" placeholder="Nombre" id="nombre-contacto" >
@@ -62,7 +62,7 @@
                             </div>
 
                         </div>
-                        <div class="col-md-6 col-lg-6">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                             <div class="email-contacto">
                                 <figure><img src="img/icono-email-contacto.png"></figure>
                                 <input type="email" name="email" required="required" placeholder="Email" id="email-contacto" >

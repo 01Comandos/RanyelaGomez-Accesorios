@@ -48,10 +48,10 @@
             <!--
                 PRODUCTOS
             -->
-        <div class="container listado-productos">
+        <div class="container listado-productos productos-group-cat">
             <div class="row">
                 <!-- PRODUCTO 1 -->
-                <div class="col-md-3 col-lg-3 producto">
+                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 producto producto-categoria">
                     <div class="empaquetado">
                         <div class="etiqueta-nuevo">
                             <span>NUEVO</span>
@@ -67,7 +67,7 @@
                 </div>
 
                 <!-- PRODUCTO 2 -->
-                <div class="col-md-3 col-lg-3 producto">
+                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 producto producto-categoria">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto2.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
@@ -80,7 +80,7 @@
                 </div>
 
                 <!-- PRODUCTO 3 -->
-                <div class="col-md-3 col-lg-3 producto">
+                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 producto producto-categoria">
                     <div class="empaquetado">
                         <div class="etiqueta-nuevo">
                             <span>NUEVO</span>
@@ -96,7 +96,7 @@
                 </div>
 
                 <!-- PRODUCTO 4 -->
-                <div class="col-md-3 col-lg-3 producto">
+                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 producto producto-categoria  hidden-sm">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto4.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
@@ -111,7 +111,7 @@
 
             <div class="row">
                 <!-- PRODUCTO 5 -->
-                <div class="col-md-3 col-lg-3 producto">
+                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 producto producto-categoria">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto5.jpg"></figure></a>
                         <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
@@ -124,7 +124,7 @@
                 </div>
 
                 <!-- PRODUCTO 6 -->
-                <div class="col-md-3 col-lg-3 producto">
+                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 producto producto-categoria">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto6.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
@@ -137,7 +137,7 @@
                 </div>
 
                 <!-- PRODUCTO 7 -->
-                <div class="col-md-3 col-lg-3 producto">
+                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 producto producto-categoria hidden-xs">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto7.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
@@ -150,7 +150,7 @@
                 </div>
 
                 <!-- PRODUCTO 8 -->
-                <div class="col-md-3 col-lg-3 producto">
+                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 producto producto-categoria hidden-xs hidden-sm">
                     <div class="empaquetado">
                         <div class="etiqueta-nuevo">
                             <span>NUEVO</span>
@@ -168,7 +168,7 @@
 
             <div class="row">
                 <!-- PRODUCTO 9 -->
-                <div class="col-md-3 col-lg-3 producto">
+                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 producto producto-categoria">
                     <div class="empaquetado">
                         <div class="etiqueta-nuevo">
                             <span>NUEVO</span>
@@ -184,7 +184,7 @@
                 </div>
 
                 <!-- PRODUCTO 10 -->
-                <div class="col-md-3 col-lg-3 producto">
+                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 producto producto-categoria">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto2.jpg" alt=""></figure></a>
                         <span class="temporada">Temporada <strong>Julio-Agosto</strong></span>
@@ -197,7 +197,7 @@
                 </div>
 
                 <!-- PRODUCTO 11 -->
-                <div class="col-md-3 col-lg-3 producto">
+                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 producto producto-categoria">
                     <div class="empaquetado">
                         <div class="etiqueta-nuevo">
                             <span>NUEVO</span>
@@ -213,10 +213,10 @@
                 </div>
 
                 <!-- PRODUCTO 12 -->
-                <div class="col-md-3 col-lg-3 producto">
+                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 producto producto-categoria hidden-sm">
                     <div class="empaquetado">
                         <a href="#"><figure><img src="img/producto4.jpg" alt=""></figure></a>
-                        <span class="temporada">Temporada <strong>Septiembre-Octubre</strong></span>
+                        <span class="temporada">Temporada <br> <strong>Septiembre-Octubre</strong></span>
                         <div class="prenda-stock">
                             <span class="prenda">Gargantilla Mod-02</span>
                             <span class="stock-etiqueta">STOCK</span>
