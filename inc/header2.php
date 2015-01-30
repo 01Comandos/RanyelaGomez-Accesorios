@@ -17,6 +17,7 @@
 
                         <!-- SUBMENU DEL USUARIO REGISTRADO - SALIR -->
                         <ul class="dropdown-menu" role="menu" aria-labelledby="submenu-registrado">
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="actualizar-datos.php">Actualizar Datos</a></li>
                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Salir</a></li>
                         </ul>
 
@@ -86,7 +87,11 @@
                   <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <div id="main-logo-mobile">
+                        <a href="index.php"><img src="img/ranyela-logotipo.png" alt="logotipo"></a>
+                      </div>
+
+                      <button type="button" class="navbar-toggle navegacion-mobile" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only"> Cambiar Navegación</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -137,9 +142,5 @@
                 
             </div>
         </div>
-  </div>
-
-              
-
-
+  </div>           
 </header>

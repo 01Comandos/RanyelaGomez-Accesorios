@@ -135,8 +135,6 @@
                           </div>
                         </div>
                         <!-- FIN COMPONENTE MODAL -->
-
-                      <button class="btn btn-default btn-superior" onclick="location.href='carrito.php'"><img src="img/carrito-icono.png" alt="">Carrito: Vacio</button>
                     </div>
             </div>
           
@@ -200,7 +198,11 @@
                   <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <div id="main-logo-mobile">
+                        <a href="index.php"><img src="img/ranyela-logotipo.png" alt="logotipo"></a>
+                      </div>
+
+                      <button type="button" class="navbar-toggle navegacion-mobile" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only"> Cambiar Navegación</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>

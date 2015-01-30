@@ -1,23 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Accesorios Ranyela Gómez</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/master/build/css/bootstrap-datetimepicker.min.css" />
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <?php include 'inc/head_common.php'; ?>
   </head>
   <body>
         <?php include 'inc/header2.php'; ?>
@@ -47,43 +31,17 @@
 
                                 <div class="titulo-DatosDePago">
                                   <span id="datos-title">Datos de Pago</span>
-                                  <span id="datos-complemento">Te enviaremos a tu email nuestros <strong>Datos Bancarios</strong></span>
+                                  <span id="datos-complemento">Te enviaremos a tu email nuestros <strong>Datos Bancarios</strong> <br>¿Deseas Recibirlos?</span>
                                 </div>
-
-                                <div class="formulario-DatosDePago">
-                                        <form action="inc/procesaformulario-DatosDePago.php" method="POST" id="formulario-DatosDePago">      
-                                            <div class="row">
-                                                  <div class="col-xs-4 col-sm-4 col-md-4 text-center">
-                                                      <div class="etiqueta-formulario">
-                                                          <span>Email</span>
-                                                      </div>
-                                                  </div>
-                                                  <div class="col-xs-8 col-sm-8 col-md-8 pull-left">
-                                                      <input type="email" name="email"  required="required" id="email-DatosDePago">
-                                                  </div>
-                                            </div>
-
-                                            <div class="row">
-                                                  <div class="col-xs-4 col-sm-4 col-md-4">
-                                                      <div class="etiqueta-formulario">
-                                                          <span>Contraseña</span>
-                                                      </div>
-                                                  </div>
-                                                  <div class="col-xs-8 col-sm-8 col-md-8 contrasena-DatosDePago">
-                                                      <input type="password" name="password" required="required" id="password-DatosDePago" >
-                                                      <a href="#">Olvidé mi Contraseña</a>
-                                                  </div>
-                                            </div>                                                 
-
-                                            <div class="row">
-                                                <div class="col-sm-12 col-md-12">
-                                                    <div class="btn-DatosDePago">
-                                                        <input type="submit" value="Confirmar" id="boton-DatosDePago" onclick="enviar-DatosDePago">
-                                                    </div>
-                                                </div>   
-                                            </div>                                            
-                                        </form>                
-                                </div>
+                                         
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12">
+                                        <div class="btn-DatosDePago">
+                                          <button class="btn btn-primary" id="boton-DatosDePago">Confirmar</button>
+                                          <button class="btn btn-primary" id="boton-DatosDePago-regresar">Regresar</button>
+                                        </div>
+                                    </div>   
+                                </div>                                                     
                             </div>
                           </div>
                         </div>

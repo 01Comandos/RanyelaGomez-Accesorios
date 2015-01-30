@@ -220,6 +220,7 @@ figure{
 
 #boton-login, #boton-DatosDePago, #boton-FormalizarPago{
     background: #d72966;
+    border: 0;
     border-bottom: 3px solid #b71e54;
     color: #ffffff;
     font-family: 'Roboto Condensed', sans-serif;
@@ -809,10 +810,11 @@ footer{
     margin-bottom: 1.5em;
     padding: 0;
     position: relative;
+    border: 2px solid transparent;
 }
 
 .articulo-carrito:hover{
-    box-shadow: 0 8px 6px -6px black;
+    border: 2px solid #d3004f;
 }
 
 .borrar-articulo-carrito a{
@@ -825,8 +827,8 @@ footer{
 }
 
 .borrar-articulo-carrito a:hover{
-    color: #f95133;
-    border: 1px dashed #f95133;
+    color: #d3004f;
+    border: 1px dashed #d3004f;
 }
 
 .articulo-carrito figure{
@@ -889,11 +891,9 @@ footer{
 /************ MODAL - DATOS DE PAGO **********/
 
 .titulo-DatosDePago{
-    border-bottom: 1px dashed #969696;
     padding-top: 0.5em;
-    padding-bottom: 0.5em;
     text-align: left;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 #datos-title{
@@ -902,6 +902,8 @@ footer{
     font-weight: bold;
     font-size: 1.6em;
     margin-left: 3em;
+    text-align: center;
+    display: block;
 }
 
 #datos-complemento{
@@ -910,23 +912,33 @@ footer{
     font-size: 1em;
     font-weight: bold;
     margin-left: 2em;
+    text-align: center;
+    display: block;
 }
 
 #datos-complemento strong{
     color: #d72966;
 }
 
-#email-DatosDePago, #password-DatosDePago{
-    float: left;
-    margin-left: 1em;
+.btn-DatosDePago{
+    display: inline-block;
+    text-align: center;
+    margin-top: -1em;
 }
 
-.contrasena-DatosDePago a{
-    color: #d72966;
-    float: left;
+#boton-DatosDePago-regresar{
+    background: #f09533;
+    border: 0;
+    border-bottom: 3px solid #ce6b00;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 1em;
+    text-align: center;
+    width: 8em;
+    text-indent: 0;
     margin-left: 1em;
-    margin-top: 0.6em;
-    text-decoration: none;
 }
 
 #nombre-banco, #monto-pago, #serial-pago, #calendario-ConfirmarPago, #direccion-envio{
@@ -941,7 +953,11 @@ footer{
 }
 
 #calendario-ConfirmarPago input{
-    width: 14.51em;
+    width: 13.5em;
+}
+
+.glyphicon.glyphicon-time, .bootstrap-datetimepicker-widget a{
+    display: none;
 }
 
 .input-group-addon{
@@ -1241,6 +1257,9 @@ footer{
 
 #indicators-productos{
     top: 0em;
+    background: rgb(238, 238, 238);
+    width: 53px;
+    height: 284px;
 }
 
 #indicators-productos li{
@@ -1390,6 +1409,12 @@ footer{
     font-weight: normal;
 }
 
+/*********** ALERTAS ***************/
+.alertify-logs article{
+    background: #d72966;
+    text-align: center;
+}
+
 
 /*******************************************************************
                     MEDIAS QUERIES
@@ -1405,8 +1430,21 @@ footer{
     }
 
     #main-logo{
-        margin-top: 2em;
-        text-align: center;
+        display: none;
+    }
+
+    #main-logo-mobile{
+        margin-top: 0.5em;
+        display: inline-block;
+    }
+
+    #main-logo-mobile a img{
+        width: 14em;
+    }
+
+    .navegacion-mobile{
+        margin-left: 5em;
+        margin-top: 1em;
     }
 
     .nav-normal{
@@ -1415,12 +1453,16 @@ footer{
 
     .nav-phone{
         display: block;
-        margin-top: 0em;
+        margin-top: 1em;
+        border: 0;
     }
 
     .navbar-header{
-        background: #eeeeee;
-        border: 0;
+        background: #ffffff;
+    }
+
+    .menu-principal li{
+        width: 100%;
     }
 
     #miSlide a{
@@ -1491,6 +1533,11 @@ footer{
     }
 
     /* modales*/
+    .titulo-login{
+        text-align: center;
+        margin-left: -1em;
+    }
+
     .tw a, .facebook-registro{
         text-align: center !important;
         float: none;
@@ -1553,11 +1600,16 @@ footer{
     }
 
     .usuario-carrito-banner{
-        margin-top: -1.4em;
+        margin-top: -0.8em;
     }
 
     #btn-xs-400{
         margin-top: -1.5em;
+    }
+
+    .total-carrito span{
+        position: relative;
+        top: -1.6em;
     }
 
     #datos-title{
@@ -1613,7 +1665,7 @@ footer{
     }
 
     #calendario-ConfirmarPago input{
-        width: 11em;
+        width: 10em;
     }
 
     /**********************
@@ -1660,6 +1712,7 @@ footer{
     .titulo-principal-categoria{
         margin-bottom: 0;
         font-size: 0.9em;
+        margin-top: -0.8em;
     }
 
     #indicators-productos{
@@ -1706,8 +1759,37 @@ footer{
         height: 2em;
     }
 
+    /**********************
+        CONTACTO
+    **********************/
+    .nombre-contacto, .asunto-contacto, .mensaje-contacto, .email-contacto, .recaptcha-contacto{
+        text-align: center !important;
+    }
 
-    
+    .email-contacto{
+        margin: 0;
+        margin-bottom: 0.5em;
+        margin-right: 2em;
+    }
+
+    .email-contacto figure{
+        display: inline-block;
+        float: none;
+    }
+
+    .email-contacto input{
+        margin-left: -0.3em;
+        width: 15em !important;
+    }
+
+    .nombre-contacto input, .asunto-contacto input, .mensaje-contacto textarea{
+        width: 15em !important; 
+    }
+
+    .recaptcha-contacto{
+        margin: auto;
+        margin-left: 0;
+    }    
 }
 
 /* Extra small devices (phones, less than 768px) */
@@ -1725,8 +1807,17 @@ footer{
     }
 
     #main-logo{
-        margin-top: 1em;
-        text-align: center;
+        display: none;
+    }
+
+    #main-logo-mobile{
+        margin-top: 0.8em;
+        display: inline-block;
+    }
+
+    .navegacion-mobile{
+        margin-left: 5em;
+        margin-top: 1.6em;
     }
 
     .nav-normal{
@@ -1734,7 +1825,8 @@ footer{
     }
 
     .nav-phone{
-        display: inline;
+        display: inline-block;
+        border: 0;
     }
 
     .navbar-header{
@@ -1742,15 +1834,8 @@ footer{
         border: 0;
     }
 
-    .menu-principal li a{
-        display: block;
-        text-align: center;
-    }
-
-    .menu-principal{
-        float: none;
-        text-align: center !important;
-        margin-top: 1em;
+    .menu-principal li{
+        width: 100%;
     }
 
     #miSlide a{
@@ -1913,9 +1998,23 @@ footer{
     }
 
     .email-contacto{
-        text-align: center;
-       float: none;
-       display: inline-block;
+        margin: 0;
+        margin-bottom: 0.5em;
+        margin-right: 2em;
+    }
+
+    .email-contacto figure{
+        display: inline-block;
+        float: none;
+    }
+
+    .email-contacto input{
+        margin-left: -0.3em;
+    }
+
+    .recaptcha-contacto{
+        margin: auto;
+        margin-left: auto;
     }
     
     /**********************
@@ -1935,6 +2034,15 @@ footer{
     **********************/
     #derechos-reservados{
         font-size: 11px;
+    }
+
+    #titulo-sociales{
+        display: none;
+    }
+
+    .social-media a img{
+        width: 2.5em !important;
+        margin-top: 0.5em;
     }
 
 }
@@ -2063,7 +2171,7 @@ footer{
 
     #indicators-productos{
         left: 14em;
-        top: 0;
+        top: 0; 
     }
     
     #imagenes-ppal-detalles img{
