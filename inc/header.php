@@ -114,7 +114,7 @@
                                                   </div>
                                                   <div class="col-xs-8 col-sm-8 col-md-8 contrasena">
                                                       <input type="password" name="password" required="required" id="password-login" >
-                                                      <a href="#">Olvidé mi Contraseña</a>
+                                                      <a href="recover-password.php">Olvidé mi Contraseña</a>
                                                   </div>
                                             </div>                                                 
 

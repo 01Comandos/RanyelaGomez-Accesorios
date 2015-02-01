@@ -329,21 +329,21 @@ figure{
     margin-bottom: 1em;
 }
 
-.inscripcion-tradicional a{
+.inscripcion-tradicional a, #reset-password{
     color: #d3004f;
     border: 1px solid #d3004f;
-    border-radius: 0.2em;
+    border-radius: 0.3em;
     text-decoration: none;
     font-size: 1.2em;
     font-family: 'Roboto-Condensed', sans-serif;
     padding: 0.5em;
 }
 
-.inscripcion-tradicional a:hover{
+.inscripcion-tradicional a:hover, #reset-password:hover{
     color: #ffffff;
     background: #d3004f;
     border: 1px solid transparent;
-    border-radius: 0.2em;
+    border-radius: 0.3em;
 }
 
 .titulo-ingresar-tradicional{
@@ -1414,6 +1414,136 @@ footer{
     background: #d72966;
     text-align: center;
 }
+
+
+/*********************************************************************
+*********************** RECOVER-PASSWORD ***************************************/
+.full-width-password{
+    background: url('../img/fond-password.jpg') center left;
+}
+
+#main-logo-password{
+    margin-bottom: 1.8em;
+}
+
+.formulario-reset{
+    background: rgb(255, 255, 255);
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    padding: 2em 1em;
+    margin-top: 150px;
+    width: 25em;
+    float: none;
+    display: inline-block;
+}
+
+.form-two form input{
+    text-indent: 15px;
+    width: 241px;
+    height: 39px;
+    z-index: 45;
+    border: 0;
+    border-radius: 3px;
+    background-color: #ededed;
+    border-bottom: #a0a0a0;
+}
+
+#boton-cancel{
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 10px;
+    width: 241px;
+    height: 40px;
+    background-color: #1f3245;
+}
+
+#boton-cancel:hover{
+    background: #305273;
+}
+
+#reset-password{
+    background: #ffffff;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/*********************************************************************
+*********************** ACTUALIZAR DATOS *****************************/
+.login-body{
+    background: #ededed;
+    min-height: 600px;
+}
+
+.ola{
+    background: #ffffff;
+}
+
+.container-login .nav-tabs.nav-justified > li > a,
+.container-login .nav-tabs.nav-justified > li > a:hover,
+.container-login .nav-tabs.nav-justified > li > a:focus {
+    background: #de7596;
+    border: medium none;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    margin-right: 0;
+    border-radius: 0;
+}
+
+.container-login .nav-tabs.nav-justified > .active > a,
+.container-login .nav-tabs.nav-justified > .active > a:hover,
+.container-login .nav-tabs.nav-justified > .active > a:focus {
+    background: #d72966;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+}
+
+.container-login .nav-tabs.nav-justified > li > a:hover,
+.container-login .nav-tabs.nav-justified > li > a:focus {
+    background: #eb3c73;
+}
+
+
+/*********************************************************************
+*********************** ERROR 404 *****************************/
+.error-body{
+    background: #e4397b;
+}
+
+.error-md img{
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*******************************************************************
