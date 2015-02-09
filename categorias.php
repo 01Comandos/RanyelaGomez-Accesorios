@@ -19,7 +19,7 @@
                 PASADORES DE SECCIONES
             -->
             <div class="row">
-                <div class="col-md-12 col-lg-12">
+                <div class="col-sm-12 col-md-12 col-lg-12">
                     <ul class="categorias-categorias">
                         <li id="primero-categoria"><a href="#">TODOS</a></li>
                         <li><a href="#">Hasta 300Bs</a></li>
@@ -223,9 +223,10 @@
             <li><a href="#"><span aria-hidden="true">&raquo;</span><span class="sr-only">Next</span></a></li>
           </ul>
         </nav>
-    </section>      
-  
+    </section>
 
+    <!-- IR AL CIELO -->
+    <span class="ir-arriba glyphicon glyphicon-chevron-up"></span>  
   </body>
   <?php include 'inc/footer.php'; ?>
   <?php include 'inc/footer_common.php'; ?>

@@ -8,7 +8,7 @@
     
     <section class="titulo-carrito">
         <div class="row usuario-carrito-banner text-center">
-            <h2>Ranyela, estás en tu carrito</h2>
+           <h2>Ranyela, estás en tu carrito</h2>
         </div>
     </section>
 
@@ -17,12 +17,12 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                     <button class="btn btn-primary botones-principales-carrito" id="mercadopago-carrito">Pagar con MercadoPago</button>
-                    <button class="btn btn-primary botones-principales-carrito" data-toggle="modal" data-target=".modal-datos-de-pago">Datos de Pago</button>
+                    <button class="btn btn-primary botones-principales-carrito" data-toggle="modal" data-target=".modal-comprar-carrito" id="datos-pago">Comprar</button>
                     <!--
                           MODAL 1: CARRITO ENVIO DE DATOS DE PAGO 
                         -->
                         <!-- Large modal -->
-                        <div class="modal fade modal-datos-de-pago" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="modal-ingresar">
+                        <div class="modal fade modal-comprar-carrito" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="modal-ingresar">
                           <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                                 <div class="modal-footer">
@@ -30,15 +30,15 @@
                                 </div>
 
                                 <div class="titulo-DatosDePago">
-                                  <span id="datos-title">Datos de Pago</span>
-                                  <span id="datos-complemento">Te enviaremos a tu email nuestros <strong>Datos Bancarios</strong> <br>¿Deseas Recibirlos?</span>
+                                  <span id="datos-title">Comprar</span>
+                                  <span id="datos-complemento">Te enviaremos a tu email nuestros <strong>Datos Bancarios</strong></span>
                                 </div>
                                          
                                 <div class="row">
                                     <div class="col-sm-12 col-md-12">
                                         <div class="btn-DatosDePago">
                                           <button class="btn btn-primary" id="boton-DatosDePago">Confirmar</button>
-                                          <button class="btn btn-primary" id="boton-DatosDePago-regresar">Regresar</button>
+                                          <button class="btn btn-primary" data-dismiss="modal" id="boton-DatosDePago-regresar">Regresar</button>
                                         </div>
                                     </div>   
                                 </div>                                                     
@@ -48,7 +48,7 @@
                         <!-- FIN COMPONENTE MODAL -->
 
 
-                    <button class="btn btn-primary botones-principales-carrito" id="btn-xs-400" data-toggle="modal" data-target=".modal-formalizar-pago">Formalizar Pago</button>
+                    <button class="btn btn-primary botones-principales-carrito" id="f-pago" data-toggle="modal" data-target=".modal-formalizar-pago">Formalizar Pago</button>
 
                     <!--
                           MODAL 2: FORMALIZAR PAGOS 
@@ -58,7 +58,7 @@
                           <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                                 <div class="modal-footer">
-                                      <button type="button" class="btn btn-default pull-right cerrar-ventana" data-dismiss="modal" id="boton-cerrar-modal">Cerrar</button>
+                                    <button type="button" class="btn btn-default pull-right cerrar-ventana" data-dismiss="modal" id="boton-cerrar-modal">Cerrar</button>
                                 </div>
 
                                 <div class="titulo-DatosDePago">
@@ -70,18 +70,23 @@
                                         <form action="inc/procesaformulario-FormalizarPago.php" method="POST" id="formulario-FormalizarPago">      
                                             <div class="row">
                                                   <div class="col-xs-4 col-sm-4 col-md-4 text-center">
-                                                      <div class="etiqueta-formulario">
+                                                      <div class="etiqueta-formulario-formalizar">
                                                           <span>Entidad Bancaria</span>
                                                       </div>
                                                   </div>
                                                   <div class="col-xs-8 col-sm-8 col-md-8">
-                                                      <input type="text" name="name-bank"  required="required" id="nombre-banco">
+                                                      <select id="entidad-bancaria" name="doc">
+                                                        <option value=""></option>
+                                                        <option value="opc1">Mercantil</option>
+                                                        <option value="opc2">Banesco</option>
+                                                        <option value="opc3">Bancaribe</option>                                                  
+                                                      </select>
                                                   </div>
                                             </div>
 
                                             <div class="row">
                                                   <div class="col-xs-4 col-sm-4 col-md-4">
-                                                      <div class="etiqueta-formulario">
+                                                      <div class="etiqueta-formulario-formalizar">
                                                           <span>Monto</span>
                                                       </div>
                                                   </div>
@@ -92,7 +97,7 @@
 
                                             <div class="row">
                                                   <div class="col-xs-4 col-sm-4 col-md-4">
-                                                      <div class="etiqueta-formulario">
+                                                      <div class="etiqueta-formulario-formalizar">
                                                           <span>Serial de Operación</span>
                                                       </div>
                                                   </div>
@@ -103,7 +108,7 @@
 
                                             <div class="row">
                                                   <div class="col-xs-4 col-sm-4 col-md-4">
-                                                      <div class="etiqueta-formulario">
+                                                      <div class="etiqueta-formulario-formalizar">
                                                           <span>Fecha</span>
                                                       </div>
                                                   </div>
@@ -126,7 +131,7 @@
 
                                             <div class="row direccion-envio">
                                                   <div class="col-xs-4 col-sm-4 col-md-4">
-                                                      <div class="etiqueta-formulario">
+                                                      <div class="etiqueta-formulario-formalizar">
                                                           <span>Dirección de Envío</span>
                                                       </div>
                                                   </div>
@@ -151,7 +156,7 @@
 
 
                     <div class="total-carrito">
-                        <span>Total: <strong>3.000 Bs</strong></span>
+                        <span> <strong>Total: 3.000 Bs</strong></span>
                     </div> 
                 </div>
             </div>
@@ -359,18 +364,11 @@
                     </div>                  
                 </div>
             </div>
-
-
         </div>
-
     </section>
 
-
-    
-    
-    
-    
-  
+    <!-- IR AL CIELO -->
+    <span class="ir-arriba glyphicon glyphicon-chevron-up"></span> 
 
   </body>
   <?php include 'inc/footer.php'; ?>

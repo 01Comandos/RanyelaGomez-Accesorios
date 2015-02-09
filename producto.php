@@ -108,7 +108,7 @@
                                             </div>
 
                                             <div class="row">
-                                                  <div class="col-md-5 text-center">
+                                                  <div class="col-sm-5 col-md-5 text-center">
                                                       <div class="imagen-producto-comprar">
                                                           <figure><img src="img/producto2.jpg" alt=""></figure>
                                                           <span>Temporada Noviembre - Diciembre <br>Pulsera 01-A</span>
@@ -116,8 +116,9 @@
                                                       </div>
                                                   </div>
                                                   <div class="col-sm-7 col-md-7">
+                                                    <span class="ola-ke-ase">Cantidad:</span>
                                                     <div class="cantidad-ventana-comprar">
-                                                        <span>Cantidad:</span>
+                                                        
                                                         <!-- SUMADOR -->
                                                         <div class="input-group number-spinner">
                                                             <span class="input-group-btn data-dwn">
@@ -199,8 +200,8 @@
             <!--
                 GALERIA PRODUCTOS
             -->
-            <div class="carousel" data-ride="carousel" id="carousel-recomendados-producto">
-                <div class="carousel-inner text-center">
+            <div class="carousel slide" data-ride="carousel" id="carousel-recomendados-producto">
+                <div class="carousel-inner col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                     <div class="item active">
                         <div class="container listado-productos">
                             <div class="row">
@@ -325,17 +326,16 @@
                                         <span class="precio">Bs.530</span>
                                     </div>
                                 </div>
-                            </div>
-
-                            
+                            </div>         
                         </div>
                     </div>
                 </div>
-            </div>
-                
+            </div>               
         </div>
-    </section>      
-  
+    </section> 
+
+    <!-- IR AL CIELO -->
+    <span class="ir-arriba glyphicon glyphicon-chevron-up"></span>      
 
   </body>
   <?php include 'inc/footer.php'; ?>

@@ -25,11 +25,8 @@
 					return false;
 				};	
 			}
-			
-		</script>
 
-
-
+	</script>
 
     <!-- CALENDARIO FORMALIZAR PAGO -->
 	<link href="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/v4.0.0/build/css/bootstrap-datetimepicker.css" rel="stylesheet">

@@ -162,7 +162,7 @@
                                         <div class="row form-inscrib">
                                               <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                                                   <div class="etiqueta-formulario">
-                                                      <span>Confirma la contraseña</span>
+                                                      <span>Confirma contraseña</span>
                                                   </div>
                                               </div>
                                               <div class="col-xs-9 col-sm-9 col-md-9 contrasena">
@@ -188,6 +188,9 @@
         </div>
     </article>
   </div>
+
+  <!-- IR AL CIELO -->
+    <span class="ir-arriba glyphicon glyphicon-chevron-up"></span>
 
   </body>
   <?php include 'inc/footer.php'; ?>

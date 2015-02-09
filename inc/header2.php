@@ -53,29 +53,29 @@
                           <li ><a href="index.php" id="home-icon"><span class="glyphicon glyphicon-home"></span></a></li>
                           <li class="opcion-principal"><a href="#">GARGANTILLAS</a>
                                <ul>
-                                <li><a href="#">Julio - Agosto</a></li>
-                                <li id="ultimas-opciones"><a href="#">Noviembre - Diciembre</a></li>
-                                <li><a href="#">Septiembre - Octubre</a></li>                                
-                                <li id="ultimas-opciones"><a href="#">Enero - Febrero (2015)</a></li>
+                                <li><a href="#">Agosto</a></li>
+                                <li><a href="#">Septiembre</a></li>
+                                <li><a href="#">Octubre</a></li>
+                                <li><a href="#">Noviembre</a></li>
                               </ul>
                           </li>
                           <li class="opcion-principal"><a href="#">PULSERAS</a>
                              <ul>
-                                <li><a href="#">Julio - Agosto</a></li>
-                                <li id="ultimas-opciones"><a href="#">Noviembre - Diciembre</a></li>
-                                <li><a href="#">Septiembre - Octubre</a></li>                                
-                                <li id="ultimas-opciones"><a href="#">Enero - Febrero (2015)</a></li>
+                                <li><a href="#">Agosto</a></li>
+                                <li><a href="#">Septiembre</a></li>
+                                <li><a href="#">Octubre</a></li>
+                                <li><a href="#">Noviembre</a></li>
                               </ul>
                           </li>
                           <li class="opcion-principal"><a href="#">ZARCILLOS</a>
                               <ul>
-                                <li><a href="#">Julio - Agosto</a></li>
-                                <li id="ultimas-opciones"><a href="#">Noviembre - Diciembre</a></li>
-                                <li><a href="#">Septiembre - Octubre</a></li>                                
-                                <li id="ultimas-opciones"><a href="#">Enero - Febrero (2015)</a></li>
+                                <li><a href="#">Agosto</a></li>
+                                <li><a href="#">Septiembre</a></li>
+                                <li><a href="#">Octubre</a></li>
+                                <li><a href="#">Noviembre</a></li>
                               </ul>
                           </li>
-                          <li><a href="contacto.php">CONTACTO</a></li>
+                          <li id="btn-contacto"><a href="contacto.php">CONTACTO</a></li>
                       </ul>
                   </nav>
 
@@ -107,33 +107,33 @@
                         <!-- MENU GARGANTILLAS -->
                         <li class="dropdown opcion-principal"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">GARGANTILLAS</a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Julio - Agosto</a></li>
-                            <li id="ultimas-opciones"><a href="#">Noviembre - Diciembre</a></li>
-                            <li><a href="#">Septiembre - Octubre</a></li>                                
-                            <li id="ultimas-opciones"><a href="#">Enero - Febrero (2015)</a></li>
+                            <li><a href="#">Agosto</a></li>
+                            <li><a href="#">Septiembre</a></li>
+                            <li><a href="#">Octubre</a></li>
+                            <li><a href="#">Noviembre</a></li>
                           </ul>
                         </li>
 
                         <!-- MENU PULSERAS -->
                         <li class="dropdown opcion-principal"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">PULSERAS</a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Julio - Agosto</a></li>
-                            <li id="ultimas-opciones"><a href="#">Noviembre - Diciembre</a></li>
-                            <li><a href="#">Septiembre - Octubre</a></li>                                
-                            <li id="ultimas-opciones"><a href="#">Enero - Febrero (2015)</a></li>
+                            <li><a href="#">Agosto</a></li>
+                            <li><a href="#">Septiembre</a></li>
+                            <li><a href="#">Octubre</a></li>
+                            <li><a href="#">Noviembre</a></li>
                           </ul>
                         </li>
 
                         <!-- MENU ZARCILLOS -->
                         <li class="dropdown opcion-principal"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">ZARCILLOS</a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Julio - Agosto</a></li>
-                            <li id="ultimas-opciones"><a href="#">Noviembre - Diciembre</a></li>
-                            <li><a href="#">Septiembre - Octubre</a></li>                                
-                            <li id="ultimas-opciones"><a href="#">Enero - Febrero (2015)</a></li>
+                            <li><a href="#">Agosto</a></li>
+                            <li><a href="#">Septiembre</a></li>
+                            <li><a href="#">Octubre</a></li>
+                            <li><a href="#">Noviembre</a></li>
                           </ul>
                         </li>
-                        <li><a href="contacto.php">CONTACTO</a></li>
+                        <li id="btn-contacto"><a href="contacto.php">CONTACTO</a></li>
 
                       </ul>
                     </div><!-- /.navbar-collapse -->

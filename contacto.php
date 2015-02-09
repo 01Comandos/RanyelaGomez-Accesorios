@@ -70,10 +70,9 @@
         </article>
     </section>  
     
+    <!-- IR AL CIELO -->
+    <span class="ir-arriba glyphicon glyphicon-chevron-up"></span>
     
-    
-  
-
   </body>
   <?php include 'inc/footer.php'; ?>
   <?php include 'inc/footer_common.php'; ?>

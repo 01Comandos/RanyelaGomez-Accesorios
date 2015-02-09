@@ -56,8 +56,8 @@
                 <div class="col-sm-12 col-md-12">
                     <ul class="categorias-index">
                         <li id="primero-categoria"><a href="#">TODOS</a></li>
-                        <li><a href="#">MEJOR VENDIDO</a></li>
-                        <li id="ultimo-categoria"><a href="#">MÁS VISITADOS</a></li>
+                        <li id="m-j"><a href="#">MÁS VENDIDO</a></li>
+                        <li id="ultimo-categoria"><a href="#">MÁS NUEVO</a></li>
                     </ul>
 
                     <div class="controles-index">
@@ -71,8 +71,8 @@
             <!--
                 PRODUCTOS
             -->
-        <div class="carousel" data-ride="carousel" id="carousel-productos-index">
-            <div class="carousel-inner">
+        <div class="carousel slide container" data-ride="carousel" id="carousel-productos-index">
+            <div class="carousel-inner col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="item active">
                     <div class="container listado-productos">
                         <div class="row">
@@ -341,11 +341,9 @@
             </div>
         </div>
     </section>
-    
-    
-    
-    
-  
+
+    <!-- IR AL CIELO -->
+    <span class="ir-arriba glyphicon glyphicon-chevron-up"></span>
 
   </body>
   <?php include 'inc/footer.php'; ?>
