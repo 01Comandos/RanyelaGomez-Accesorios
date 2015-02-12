@@ -178,20 +178,23 @@
                           <span><strong>Temporada:</strong> Julio-Agosto</span>
                           <span><strong>Modelo:</strong> Pulsera Mod-01</span>
                           <span ><strong>Precio:</strong><strong id="precio-carrito"> Bs.300</strong></span>
+
                           <span>Cantidad: </span>
                           <!-- SUMADOR -->
                             <div class="sumador-carrito">
-                            <div class="input-group number-spinner">
-                              <span class="input-group-btn data-dwn">
-                                  <button class="btn btn-default btn-info" data-dir="dwn"><span class="glyphicon glyphicon-minus"></span></button>
-                              </span>
-                              <input type="text" class="form-control text-center" value="1" min="1" max="40" id="sumador-unidades">
-                              <span class="input-group-btn data-up">
-                                  <button class="btn btn-default btn-info" data-dir="up"><span class="glyphicon glyphicon-plus"></span></button>
-                              </span>
-                            </div>
+                              <div class="input-group number-spinner">
+                                <span class="input-group-btn data-dwn">
+                                    <button class="btn btn-default btn-info" data-dir="dwn"><span class="glyphicon glyphicon-minus"></span></button>
+                                </span>
+                                <input type="text" class="form-control text-center" value="1" min="1" max="40" id="sumador-unidades">
+                                <span class="input-group-btn data-up">
+                                    <button class="btn btn-default btn-info" data-dir="up"><span class="glyphicon glyphicon-plus"></span></button>
+                                </span>
+                              </div>
                           </div>    
-                            <!-- FIN SUMADOR -->                           
+                            <!-- FIN SUMADOR --> 
+                            <!-- BOTON ACTUALIZAR PRECIO -->
+                            <button class="btn btn-default btn-info actualizar-total">Actualizar Total</button>                          
                         </div> 
                     </div>                  
                 </div>
@@ -227,6 +230,8 @@
                             </div>
                           </div>   
                           <!-- FIN SUMADOR -->  
+                          <!-- BOTON ACTUALIZAR PRECIO -->
+                            <button class="btn btn-default btn-info actualizar-total">Actualizar Total</button>
                         </div> 
                     </div>                  
                 </div>              
@@ -245,7 +250,7 @@
                             <a href="javascript:void(0)"><span class="glyphicon glyphicon-remove"></span></a>
                         </div>
                         <div class="datos-articulo-carrito">
-                          <span><strong>Temporada:</strong> Septiembre-Octubre</span>
+                          <span><strong>Temporada:</strong> Septiembre</span>
                           <span><strong>Modelo:</strong> Gargantilla Mod-01</span>
                           <span><strong>Precio:</strong><strong id="precio-carrito"> Bs.600</strong></span>
                           <span>Cantidad: </span>
@@ -262,6 +267,8 @@
                             </div>
                           </div>   
                           <!-- FIN SUMADOR -->  
+                          <!-- BOTON ACTUALIZAR PRECIO -->
+                            <button class="btn btn-default btn-info actualizar-total">Actualizar Total</button>
                         </div> 
                     </div>                  
                 </div>
@@ -277,7 +284,7 @@
                             <a href="javascript:void(0)"><span class="glyphicon glyphicon-remove"></span></a>
                         </div>
                         <div class="datos-articulo-carrito">
-                          <span><strong>Temporada:</strong> Septiembre-Octubre</span>
+                          <span><strong>Temporada:</strong>Octubre</span>
                           <span><strong>Modelo:</strong> Gargantilla Mod-02</span>
                           <span><strong>Precio:</strong><strong id="precio-carrito"> Bs.530</strong></span>
                           <span>Cantidad: </span>
@@ -293,7 +300,10 @@
                               </span>
                             </div>
                           </div>   
-                          <!-- FIN SUMADOR -->  
+                          <!-- FIN SUMADOR --> 
+                          <!-- BOTON ACTUALIZAR PRECIO -->
+                            <button class="btn btn-default btn-info actualizar-total">Actualizar Total</button>
+
                         </div> 
                     </div>                  
                 </div>
@@ -327,7 +337,9 @@
                               </span>
                             </div>
                           </div>  
-                          <!-- FIN SUMADOR -->  
+                          <!-- FIN SUMADOR -->
+                          <!-- BOTON ACTUALIZAR PRECIO -->
+                            <button class="btn btn-default btn-info actualizar-total">Actualizar Total</button>  
                         </div> 
                     </div>                  
                 </div>
@@ -359,7 +371,9 @@
                               </span>
                             </div>
                           </div>  
-                          <!-- FIN SUMADOR -->  
+                          <!-- FIN SUMADOR -->
+                          <!-- BOTON ACTUALIZAR PRECIO -->
+                            <button class="btn btn-default btn-info actualizar-total">Actualizar Total</button>  
                         </div> 
                     </div>                  
                 </div>

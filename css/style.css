@@ -864,6 +864,17 @@ footer{
     height: 10em;
 }
 
+.actualizar-total{
+    float: right;
+    margin-top: -2.4em;
+    margin-right: 1em;
+    border: 0;
+}
+
+.actualizar-total:hover{
+    background: #d3004f !important;
+}
+
 #boton-comprar, #agregar-al-carrito{
     background: #d72966;
 }
@@ -1597,6 +1608,25 @@ footer{
     right: 20px;
 }
 
+/*********************************************************************
+*********************** NO-ENCONTRADO ********************************/
+.franja-no-encontrado{
+    background: #d3004f;
+    height: 1em;
+}
+
+.contenedor-mensaje{
+    margin-top: 1em;
+}
+
+#lo-sentimos{
+    background: #eeeeee;
+    color: #636363;
+    font-family: 'Roboto-Condensed',sans-serif;
+    text-align: center;    
+    padding: 1em;
+}
+
 
 /*******************************************************************
                     MEDIAS QUERIES
@@ -1839,12 +1869,12 @@ footer{
     }
 
     .articulo-carrito figure a img{
-        width: 9em;
-        height: 10.5em;
+        width: 9.5em;
+        height: 12em;
     }
 
     .datos-articulo-carrito{
-        padding: 0.5em 0 10em 0;
+        padding: 0.5em 0 11.5em 0;
     }
 
     .sumador-carrito{
@@ -1861,6 +1891,13 @@ footer{
         width: 2em;
         height: 2em;
         padding: 0;
+    }
+
+    .actualizar-total{
+        float: none;
+        display: block;
+        margin: 0;
+        margin-top: 0.5em;  
     }
 
     .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group{
@@ -2012,6 +2049,19 @@ footer{
     .recaptcha-contacto{
         margin: auto;
         margin-left: 0;
+    }
+
+    /**********************
+        NO-ENCONTRADO
+    **********************/
+
+    .contenedor-mensaje{
+        margin-top: 1em;
+        min-height: 26em;
+    }
+
+    #lo-sentimos{
+        font-size: 1.6em;
     }    
 }
 
@@ -2295,6 +2345,19 @@ footer{
         margin-top: 0.5em;
     }
 
+    /**********************
+        NO-ENCONTRADO
+    **********************/
+
+    .contenedor-mensaje{
+        margin-top: 1em;
+        min-height: 34em;
+    }
+
+    #lo-sentimos{
+        font-size: 1.6em;
+    }   
+
 }
 
 
@@ -2492,12 +2555,12 @@ footer{
     }
 
     .articulo-carrito figure a img{
-        width: 9em;
-        height: 10.5em;
+        width: 9.5em;
+        height: 12em;
     }
 
     .datos-articulo-carrito{
-        padding: 0.5em 0 10em 0;
+        padding: 0.5em 0 11.5em 0;
     }
 
     .borrar-articulo-carrito a, .borrar-articulo-carrito a:hover{
@@ -2532,6 +2595,13 @@ footer{
         left: -0.1em;
     }
 
+    .actualizar-total{
+        float: none;
+        display: block;
+        margin: 0;
+        margin-top: 0.5em;  
+    }
+
 
     /**********************
         CONTACTO
@@ -2543,7 +2613,6 @@ footer{
     #mensaje-contacto{
         width: 18em;
     }
-
 
     /**********************
         FOOTER
