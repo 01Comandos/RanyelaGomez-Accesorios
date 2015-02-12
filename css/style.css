@@ -328,7 +328,7 @@ figure{
     margin-bottom: 1em;
 }
 
-.inscripcion-tradicional a, #reset-password{
+.inscripcion-tradicional a, #reset-password, .contenedor-mensaje-mailchimp a{
     color: #d3004f;
     border: 1px solid #d3004f;
     border-radius: 0.3em;
@@ -338,7 +338,7 @@ figure{
     padding: 0.5em;
 }
 
-.inscripcion-tradicional a:hover, #reset-password:hover{
+.inscripcion-tradicional a:hover, #reset-password:hover, .contenedor-mensaje-mailchimp a:hover{
     color: #ffffff;
     background: #d3004f;
     border: 1px solid transparent;
@@ -635,7 +635,7 @@ footer{
     margin-bottom: 20px;
 }
 
-.seccion-formulario{
+.seccion-formulario, .section-terminar{
     background: #eeeeee;
 }
 
@@ -779,7 +779,7 @@ footer{
     padding: 0.5em;
 }
 
-.cuerpo-carrito{
+.cuerpo-carrito, .section-terminar{
     background: #eeeeee;
     min-height: 38em;
 }
@@ -1627,6 +1627,71 @@ footer{
     padding: 1em;
 }
 
+/*********************************************************************
+*********************** MAILCHIMP-TERMINAR ***************************/
+.contenedor-mensaje-mailchimp{
+    display: block;
+    text-align: center;
+    width: 55em;
+    margin: auto;
+    margin-bottom: 2em;
+    padding: 0.5em 0.5em 2em 0.5em !important;
+
+    background: #ffffff;
+    margin-top: 55px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: 1.5px 2.598px 1px 0.9px rgb( 150, 150, 150 );
+}
+
+.h2-mailchimp{
+    color: #d72966;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+.contenedor-mensaje-mailchimp h3{
+    color: #454545;
+    margin: 0;
+}
+
+.cuerpo-mensaje-mailchimp p{
+    text-align: left;
+    margin-left: 3em;
+    padding-top: 0.8em;
+    font-size: 1.1em;
+    font-family: 'Roboto-Condensed',sans-serif;
+}
+
+.direccion-mailchimp p{
+    margin-bottom: 1.5em;
+    margin-left: 3em;
+    padding-top: 0.8em;
+    font-size: 1.1em;
+    font-family: 'Roboto-Condensed',sans-serif;
+}
+
+/*********************************************************************
+*********************** MAILCHIMP-BIENVENIDA *************************/
+.holis{
+    display: inline-block;
+    text-align: center;
+}
+
+.holis input{
+    background: #ededed !important;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.holis-suscribir{
+    margin-left: 4.5em;
+}
+
+#boton-suscribir{
+    background: #f15a29 !important;
+}
+
 
 /*******************************************************************
                     MEDIAS QUERIES
@@ -1634,6 +1699,7 @@ footer{
 
 /*PHONE SMALL */
 @media (max-width: 415px){
+
     /**********************
         INDEX
     **********************/
@@ -2062,6 +2128,22 @@ footer{
 
     #lo-sentimos{
         font-size: 1.6em;
+    }
+
+    /**********************
+        MAILCHIMP-TERMINAR
+    **********************/
+    .contenedor-mensaje-mailchimp{
+        width: 20em;
+    }
+
+    .contenedor-mensaje-mailchimp h3{
+        font-size: 1.2em;
+    }
+
+    .cuerpo-mensaje-mailchimp p, .direccion-mailchimp p{
+        margin-left: 1.5em;
+        text-align: justify;
     }    
 }
 
@@ -2358,6 +2440,22 @@ footer{
         font-size: 1.6em;
     }   
 
+    /**********************
+        MAILCHIMP-TERMINAR
+    **********************/
+    .contenedor-mensaje-mailchimp{
+        width: 30em;
+    }
+
+    .contenedor-mensaje-mailchimp h3{
+        font-size: 1.5em;
+    }
+
+    .cuerpo-mensaje-mailchimp p, .direccion-mailchimp p{
+        margin-left: 1.5em;
+        text-align: justify;
+    }
+
 }
 
 
@@ -2620,6 +2718,22 @@ footer{
     #derechos-reservados{
         font-size: 0.8em;
     }  
+
+    /**********************
+        MAILCHIMP-TERMINAR
+    **********************/
+    .contenedor-mensaje-mailchimp{
+        width: 36em;
+    }
+
+    .contenedor-mensaje-mailchimp h3{
+        font-size: 1.5em;
+    }
+
+    .cuerpo-mensaje-mailchimp p, .direccion-mailchimp p{
+        margin-left: 1.5em;
+        text-align: justify;
+    }
 }
 
 

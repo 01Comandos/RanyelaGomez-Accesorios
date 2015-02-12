@@ -23,10 +23,10 @@
                             <img src="img/slide2.jpg" class="adaptar">
                         </div>
                         <div class="item">
-                            <img src="img/slide1.jpg" class="adaptar">
+                            <img src="img/slide3.jpg" class="adaptar">
                         </div>
                         <div class="item">
-                            <img src="img/slide2.jpg" class="adaptar">
+                            <img src="img/slide4.jpg" class="adaptar">
                         </div>
                 </div>
 

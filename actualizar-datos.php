@@ -35,7 +35,7 @@
                                     <div class="container">
                                         <div class="row form-inscrib">
                                               <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                                                  <div class="etiqueta-formulario">
+                                                  <div class="etiqueta-formulario-formalizar">
                                                       <span>Nombre</span>
                                                   </div>                              
                                               </div>
@@ -46,7 +46,7 @@
 
                                         <div class="row form-inscrib">
                                               <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                                                  <div class="etiqueta-formulario">
+                                                  <div class="etiqueta-formulario-formalizar">
                                                       <span>Apellido</span>
                                                   </div>
                                               </div>
@@ -57,7 +57,7 @@
 
                                         <div class="row form-inscrib">
                                               <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                                                  <div class="etiqueta-formulario">
+                                                  <div class="etiqueta-formulario-formalizar">
                                                       <span>Email</span>
                                                   </div>
                                               </div>
@@ -68,7 +68,7 @@
 
                                         <div class="row form-inscrib">
                                               <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                                                  <div class="etiqueta-formulario">
+                                                  <div class="etiqueta-formulario-formalizar">
                                                       <span>Teléfono</span>
                                                   </div>
                                               </div>
@@ -79,11 +79,11 @@
 
                                         <div class="row form-inscrib">
                                               <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                                                  <div class="etiqueta-formulario">
+                                                  <div class="etiqueta-formulario-formalizar">
                                                       <span>Contraseña</span>
                                                   </div>
                                               </div>
-                                              <div class="col-xs-9 col-sm-9 col-md-9 contrasena">
+                                              <div class="col-xs-9 col-sm-9 col-md-9 contrasena-inscripcion">
                                                   <input type="password" name="password" required="required" placeholder="******" id="password1" >
                                                   <span>Usa entre 6 y 20 Caracteres</span>
                                               </div>
@@ -91,7 +91,7 @@
 
                                         <div class="row form-inscrib">
                                               <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                                                  <div class="etiqueta-formulario">
+                                                  <div class="etiqueta-formulario-formalizar">
                                                     <span>Documento</span>
                                                   </div>                                            
                                               </div>
@@ -138,7 +138,7 @@
                                     <div class="container">
                                         <div class="row form-inscrib">
                                               <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                                                  <div class="etiqueta-formulario">
+                                                  <div class="etiqueta-formulario-formalizar">
                                                       <span>Email</span>
                                                   </div>
                                               </div>
@@ -149,11 +149,11 @@
 
                                         <div class="row form-inscrib">
                                               <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                                                  <div class="etiqueta-formulario">
+                                                  <div class="etiqueta-formulario-formalizar">
                                                       <span>Contraseña</span>
                                                   </div>
                                               </div>
-                                              <div class="col-xs-9 col-sm-9 col-md-9 contrasena">
+                                              <div class="col-xs-9 col-sm-9 col-md-9 contrasena-inscripcion">
                                                   <input type="password" name="password" required="required" placeholder="******" id="password1" >
                                                   <span>Usa entre 6 y 20 Caracteres</span>
                                               </div>
@@ -161,11 +161,11 @@
 
                                         <div class="row form-inscrib">
                                               <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                                                  <div class="etiqueta-formulario">
+                                                  <div class="etiqueta-formulario-formalizar">
                                                       <span>Confirma contraseña</span>
                                                   </div>
                                               </div>
-                                              <div class="col-xs-9 col-sm-9 col-md-9 contrasena">
+                                              <div class="col-xs-9 col-sm-9 col-md-9 contrasena-inscripcion">
                                                   <input type="password" name="password" required="required" placeholder="******" id="password1" >
                                               </div>
                                         </div>
